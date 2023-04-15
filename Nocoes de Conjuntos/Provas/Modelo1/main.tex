@@ -52,11 +52,11 @@ Data: 11.04.2023,\hspace{1cm}  Total de questões \textbf{\numquestions} \hspace
 \end{enumerate}
 }
 %%toggle comment on next line to show/hide the answers
-\printanswers
+% \printanswers
 %%Now the actual paper!
 \begin{questions}
 \question[2] 
-  Dados os conjuntos $A = \big\{-4,-3,-2,-1,0,1,2,3\big\}$, $B = \big\{-4,1,2,5,7\big\}$, $C = \big\{-1,0,1,2,3,4\big\}$ e $D = \big\{-2,-1,0,3,4,5,6,8\big\}$, determine:
+  Dados os conjuntos $A = \big\{-3,-2,-1,0,1,2,3\big\}$, $B = \big\{-5,1,2,5\big\}$, $C = \big\{-2,0,2,3,4\big\}$ e $D = \big\{-2,-1,0,3,4,5,6,8\big\}$, determine:
   \begin{tasks}(2)
     \task $A \cup B$
     \task $A \cap B$
@@ -67,16 +67,16 @@ Data: 11.04.2023,\hspace{1cm}  Total de questões \textbf{\numquestions} \hspace
 
 \begin{solution}[1in]
   \begin{tasks}
-    \task $A \cup B = \big\{-4,-3,-2,-1,0,1,2,3,5,7\big\}$
-    \task $A \cap B = \big\{-4,1,2\big\}$
-    \task $A - D = \big\{-4,-3,1,2\big\}$
+    \task $A \cup D = \big\{-4,-3,-2,-1,0,1,2,3,5,7\big\}$
+    \task $A \cap C = \big\{-4,1,2\big\}$
+    \task $A - B = \big\{-4,-3,1,2\big\}$
     \task $(A \cup D) \cap (B - C) = \big\{-4,-3,-2,-1,0,1,2,3,4,5,6,8\big\} \cap \big\{-4,5,7\big\} = \big\{-4,5\big\}$
     \task $(A \cap D) - (B \cup C) = \big\{-2,-1,0,3\big\} - \big\{-4,-1,0,1,2,3,4,5,7\big\} = \big\{-2\big\}$
   \end{tasks}
 \end{solution}
 
 \question[1]
-  Sabendo que $A \cup B = \big\{1,2,4,6,8,10,12,14,16\big\}$, $A - B = \big\{1,2,10\big\}$ e $A \cap B = \big\{6, 8, 16\big\}$, represente os conjuntos \textit{A} e \textit{B} em um diagrama como este:
+  Sabendo que , $B - A = \big\{g,h,i\big\}$ e $A \cap B = \big\{a, b, d\big\}$ e $A \cup B = \big\{a,b,c,d,e,f,g,h,i\big\}$, represente os conjuntos \textit{A} e \textit{B} em um diagrama como este:
 
   \begin{center}
     \begin{tikzpicture}
@@ -115,10 +115,10 @@ Data: 11.04.2023,\hspace{1cm}  Total de questões \textbf{\numquestions} \hspace
 Represente, na reta real, os intervalos:
 
 \begin{tasks}
-  \task $A = \big[2, 8\big]$
-  \task $B = \big\{x \in \mathbb{R} \,/\, 2 < x < 5\big\}$
-  \task $C = \big]- \infty, 2\big]$
-  \task $D = \big\{x \in \mathbb{R} \,/\, -2 \leq x \leq 2\big\}$
+  \task $A = \big]-2, 4\big]$
+  \task $B = \big\{x \in \mathbb{R} \,/\, 8 \leq x < 9\big\}$
+  \task $C = \big[2, +\infty\big[$
+  \task $D = \big\{x \in \mathbb{R} \,/\, -6 < x \leq -2\big\}$
 \end{tasks}
 
 \begin{solution}[1in]
@@ -220,13 +220,13 @@ Uma editora estuda a possibilidade de lançar novamente as publicações: \texti
 Para isto, efetuou uma pesquisa de mercado e concluiu que em cada 1000 pessoas consultas:
 
 \begin{itemize}
-  \item 600 leram \textit{A Moreninha};
-  \item 400 leram \textit{Helena};
-  \item 300 leram \textit{Senhora};
-  \item 200 leram \textit{A Moreninha} e \textit{Helena};
+  \item 580 leram \textit{A Moreninha};
+  \item 350 leram \textit{Helena};
+  \item 350 leram \textit{Senhora};
+  \item 220 leram \textit{A Moreninha} e \textit{Helena};
   \item 150 leram \textit{A Moreninha} e \textit{Senhora};
-  \item 100 leram \textit{Senhora} e \textit{Helena};
-  \item 20 leram as três obras.
+  \item 90 leram \textit{Senhora} e \textit{Helena};
+  \item 30 leram as três obras.
 \end{itemize}
 
 Calcule:
@@ -265,12 +265,17 @@ Calcule:
 \end{solution}
 
 \question[1]
+Uma fábrica de motocicletas realizou uma pesquisa de mercado com 400 jovens maiores de idade, concluindo
+que, precisamente:
+\begin{itemize}
+  \item 283 dos entrevistados já haviam dirigido automóvel;
+  \item 127 dos entrevistados já haviam dirigido motocicletas;
+  \item 67 dos entrevistados não haviam dirigido nenhum dos dois tipos de veículo. 
+\end{itemize}
 
-Um funcionário do departamento de Recursos Humanos de uma indústria automobilística, analisando o currículo de 63 candidatos
-a postos de trabalho, concluiu que apenas 5 deles nunca haviam trabalhado em montagem ou pintura, 37 já haviam trabalhado em 
-montagem e 18 já haviam trabalhado nos dois setores. Quantos desses candidatos haviam trabalhado apenas em pintura?
+Quantos dos jovens entrevistados já haviam dirigido os dois tipos de veículo?
 
-\begin{solution}[2in]
+\begin{solution}[1in]
   \begin{center}
     \begin{tikzpicture}
 
@@ -289,14 +294,16 @@ montagem e 18 já haviam trabalhado nos dois setores. Quantos desses candidatos 
 
 \question[1]
 
-Em uma escola, numa turma de 40 estudantes, 26 jogam futebol, 15 jogam voleibol e 5 não praticam esporte algum. 
-O número de alunos dessa turma que joga somente futebol é:
+A Secretaria de Saúde do Estado da Paraíba, em estudos recentes, observou que o número de pessoas acometidas de 
+doenças como gripe e dengue tem assustado bastante a população paraibana. Em pesqusas realizadas com um universo
+de 700 pessoas, constatou-se que $40\%$ tiveram gripe e dengue, $80\%$ gripe. O número de pessoas que tiveram apenas dengue é:
+
 \begin{tasks}(5)
-  \task 8
-  \task 16
-  \task 10
-  \task 20
-  \task 12
+  \task 450 
+  \task 380
+  \task 560
+  \task 140 
+  \task 70
 \end{tasks}
 
 \begin{solution}[2in]
