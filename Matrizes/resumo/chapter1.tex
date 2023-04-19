@@ -223,6 +223,9 @@ Nome que a transposta de uma matriz $m \times n$ é uma matriz do tipo $n \times
     0 & 4
   \end{bmatrix}$
 
+  \vspace{.3cm}
+  \textbf{Resolução} \vspace{.3cm}
+
   As matrizes são do mesmo tipo $(2 \times 2)$. Logo, elas serão iguais se, e somente se, os elementos 
   correspondentes forem iguais, isto é:
 
@@ -252,80 +255,78 @@ Nome que a transposta de uma matriz $m \times n$ é uma matriz do tipo $n \times
 
 \subsection{Exercícios Propostos}
 
-\begin{multicols}{2}
-  \begin{enumerate}[label*=\protect\fbox{\arabic{enumi}}]
-    \item {
-        Uma rede comercial é formada por cinco lojas, numeradas de 1 a 5. A tabela abaixo mostra o faturamento, em real, de 
-        cada loja nos quatro primeiros dias de janeiro:
+\begin{enumerate}[label*=\protect\fbox{\arabic{enumi}}]
+  \item {
+      Uma rede comercial é formada por cinco lojas, numeradas de 1 a 5. A tabela abaixo mostra o faturamento, em real, de 
+      cada loja nos quatro primeiros dias de janeiro:
 
-        \begin{equation*}
-            \begin{split}
-              \begin{bmatrix}
-                1950 & 2030 & 1800 & 1950 \\
-                1500 & 1820 & 1740 & 1680 \\
-                3010 & 2800 & 2700 & 3050 \\
-                2500 & 2420 & 2300 & 2680 \\
-                1800 & 2020 & 2040 & 1950 
-              \end{bmatrix}
-            \end{split}
-        \end{equation*}
+      \begin{equation*}
+          \begin{split}
+            \begin{bmatrix}
+              1950 & 2030 & 1800 & 1950 \\
+              1500 & 1820 & 1740 & 1680 \\
+              3010 & 2800 & 2700 & 3050 \\
+              2500 & 2420 & 2300 & 2680 \\
+              1800 & 2020 & 2040 & 1950 
+            \end{bmatrix}
+          \end{split}
+      \end{equation*}
 
-        Cada elemento $a_{ij}$ dessa matriz é o faturamento da loja \textit{i} no dia \textit{j}. 
+      Cada elemento $a_{ij}$ dessa matriz é o faturamento da loja \textit{i} no dia \textit{j}. 
 
-        \begin{tasks}
-          \task Qual foi o faturamento da loja 3 no dia 2?
-          \task Qual foi o faturamento dessa rede de lojas no dia 3?
-          \task Qual foi o faturamento da loja 1 nos quatro dias?
-        \end{tasks}
-      }
-    \item {
-        Represente explicitamente cada uma das matrizes:
-        \begin{tasks}
-          \task $A = (a_{ij})_{3 \times 2}$ tal que $a_{ij} = i + 2j$
-          \task $B = (b_{ij})_{2 \times 3}$ tal que $b_{ij} = i^2 + 3j$
-          \task $C = (c_{ij})_{2 \times 2}$ tal que $c_{ij} = 2i$
-          \task $D = (a_{ij})_{2 \times 3}$ tal que $\begin{cases} 1, \text{ se } i = j \\ i + j, \text{ se } i \neq j \end{cases}$
-        \end{tasks}
-      }
+      \begin{tasks}
+        \task Qual foi o faturamento da loja 3 no dia 2?
+        \task Qual foi o faturamento dessa rede de lojas no dia 3?
+        \task Qual foi o faturamento da loja 1 nos quatro dias?
+      \end{tasks}
+    }
+  \item {
+      Represente explicitamente cada uma das matrizes:
+      \begin{tasks}
+        \task $A = (a_{ij})_{3 \times 2}$ tal que $a_{ij} = i + 2j$
+        \task $B = (b_{ij})_{2 \times 3}$ tal que $b_{ij} = i^2 + 3j$
+        \task $C = (c_{ij})_{2 \times 2}$ tal que $c_{ij} = 2i$
+        \task $D = (a_{ij})_{2 \times 3}$ tal que $\begin{cases} 1, \text{ se } i = j \\ i + j, \text{ se } i \neq j \end{cases}$
+      \end{tasks}
+    }
 
-    \item {
-        Sendo $I_2$ a matriz identidade de ordem 2, determine o número real \textit{x} tal que:
-        \begin{equation*}
-            \begin{split}
-              \begin{bmatrix}
-                x^2 - 15 & 0 \\
-                0 & x - 3 
-              \end{bmatrix} = I_2
-            \end{split}
-        \end{equation*}
-      }
+  \item {
+      Sendo $I_2$ a matriz identidade de ordem 2, determine o número real \textit{x} tal que:
+      \begin{equation*}
+          \begin{split}
+            \begin{bmatrix}
+              x^2 - 15 & 0 \\
+              0 & x - 3 
+            \end{bmatrix} = I_2
+          \end{split}
+      \end{equation*}
+    }
 
-    \item {
-        Dada a matriz $A = \begin{bmatrix}
-          5 & 4 & -2 \\
-          -6 & 0 & 3
-        \end{bmatrix}$,
-        determine as matrizes:
-        \begin{tasks}
-          \task $A^t$
-          \task $(A^t)^t$
-        \end{tasks}
-      }
+  \item {
+      Dada a matriz $A = \begin{bmatrix}
+        5 & 4 & -2 \\
+        -6 & 0 & 3
+      \end{bmatrix}$,
+      determine as matrizes:
+      \begin{tasks}
+        \task $A^t$
+        \task $(A^t)^t$
+      \end{tasks}
+    }
 
-    \item {
-        Obtenha os valores reais de \textit{x} e \textit{y} de modo que a matriz abaixo seja nula.
-        \begin{equation*}
-            \begin{split}
-              \begin{bmatrix}
-                3x + y - 7 & 0 & 0 \\
-                0 & 5x - y - 1 & 0
-              \end{bmatrix}
-            \end{split}
-        \end{equation*}
-      }
-  \end{enumerate}
+  \item {
+      Obtenha os valores reais de \textit{x} e \textit{y} de modo que a matriz abaixo seja nula.
+      \begin{equation*}
+          \begin{split}
+            \begin{bmatrix}
+              3x + y - 7 & 0 & 0 \\
+              0 & 5x - y - 1 & 0
+            \end{bmatrix}
+          \end{split}
+      \end{equation*}
+    }
+\end{enumerate}
   
-\end{multicols}
 
 \section{Operações entre Matrizes}
 
@@ -388,7 +389,7 @@ Nome que a transposta de uma matriz $m \times n$ é uma matriz do tipo $n \times
 \end{example}
 
 \subsection{Subtração de Matrizes}
-dfn{Subtração de Matrizes}{
+\dfn{Subtração de Matrizes}{
   A \textbf{diferença} de duas matrizes do mesmo tipo, \textit{A} e \textit{B}, nessa ordem, é a soma de \textit{A} com 
   a oposta de \textit{B}.
 
@@ -454,16 +455,15 @@ dfn{Subtração de Matrizes}{
 
   Indicamos esse produto por $k \cdot A \text{ ou } kA $.
 \begin{example}
-  $6 \cdot \begin{bmatrix}
+  \[6 \cdot \begin{bmatrix}
     2 & 5 & 1 \\
     0 & \sqrt{2} & -2
   \end{bmatrix} = \begin{bmatrix}
     12 & 30 & 6 \\
     0 & 6\sqrt{2} & -12
-  \end{bmatrix}$
+  \end{bmatrix}\]
 \end{example}
 
-\newpage
 \subsection{Exercícios Propostos}
 
 \begin{multicols}{2}
@@ -675,6 +675,163 @@ O esquema a seguir ajuda a visualizar essa definição:
     \item Transposta do produto: $(A \cdot B)^t = B^t \cdot A^t$, em que $A_{m \times n}$ e $B_{n \times k}$.
   \end{enumerate}
 \end{proposition}
+
+\begin{exercise}\leavevmode
+  \begin{enumerate}
+    \item {
+        Determinar a matriz \textit{X} tal que: $\begin{bmatrix}
+          2 & 3 \\
+          1 & -4
+        \end{bmatrix} \cdot X = \begin{bmatrix}
+          4 \\
+          -9
+        \end{bmatrix}$
+
+        \vspace{.3cm}
+        \textbf{Resolução}
+        \vspace{.3cm}
+
+        Primeiro, vamos determinar o tipo da matriz \textit{X}:
+
+        \begin{equation*}
+          \begin{bmatrix}
+            2 & 3 \\
+            1 & -4 
+          \end{bmatrix}_{2 \times 2} \cdot X_{m \times n} = \begin{bmatrix}
+            4 & -9
+          \end{bmatrix}_{2 \times 1}
+        \end{equation*}
+
+        Para que seja possível multiplicar as matrizes, o número de colunas da primeira
+        matriz deve ser igual ao número de linhas de \textit{X}; portanto, $m = 2$. O número 
+        de colunas da matriz \textit{X} deve ser igual ao número de colunas da matriz produto; 
+        portanto, $n = 1$.
+
+        Assim, a matriz \textit{X} é to tipo $2 \times 1$.
+
+        Sendo $X = \begin{bmatrix}
+          a \\ b
+        \end{bmatrix}$, temos:
+
+        \begin{equation*}
+          \begin{bmatrix}
+            2 & 3 \\
+            1 & -4
+          \end{bmatrix} \cdot \begin{bmatrix}
+            a \\
+            b
+          \end{bmatrix} = \begin{bmatrix}
+            4 \\
+            -9
+          \end{bmatrix} \implies \begin{bmatrix}
+            2a + 3b \\
+            a - 4b
+          \end{bmatrix} = \begin{bmatrix}
+            4 \\
+            -9
+          \end{bmatrix}
+        \end{equation*}
+
+        Portanto: \[
+          \systeme{
+            2a + 3b = 4,
+            a - 4b = -9
+          } \implies 
+          \systeme{
+            2a + 3b = 4,
+            -2a + 8b = 18
+          } \implies  
+          0a + 11b = 22 \implies b = 2 \implies a = -1 
+        \]
+
+        Assim, concluímos: $X = \begin{bmatrix}
+          -1 \\
+          2
+        \end{bmatrix}$
+      }
+  \end{enumerate}
+\end{exercise}
+
+\subsection{Exercícios Propostos}
+
+\begin{enumerate}[label*=\protect\fbox{\arabic{enumi}}]
+  \item{ Dadas as matrizes $A = \begin{bmatrix}
+    2 & 6 \\
+    -1 & 0 
+  \end{bmatrix}$, $B = \begin{bmatrix}
+    4 \\
+    3
+  \end{bmatrix}$ e $C = \begin{bmatrix}
+    1 & -2
+  \end{bmatrix}$, determine, se possível:
+
+  \begin{tasks}(3)
+    \task $A \cdot B$
+    \task $A \cdot C$
+    \task $B \cdot C$
+    \task $A^2$
+    \task $B^2$
+  \end{tasks}
+}
+\item {
+    Sendo as matrizes $A = \begin{bmatrix}
+      1 & 2 & 3 \\
+      0 & 6 & 1
+    \end{bmatrix}$, $B = \begin{bmatrix}
+      1 & 1 \\
+      4 & 4 \\
+      2 & 2 
+    \end{bmatrix}$ e $C = \begin{bmatrix}
+      1 & -1 & 1 \\
+      -1 & 1 & -1
+    \end{bmatrix}$, determine:
+
+    \begin{tasks}(3)
+      \task $A \cdot B$
+      \task $B \cdot A$
+      \task $A \cdot I_3$
+      \task $I_2 \cdot A$
+      \task $B \cdot C$
+    \end{tasks}
+  }
+
+  \item{
+      O valor de \textit{a} para que a setença $\begin{bmatrix}
+        2 & 1 \\
+        1 & 1
+      \end{bmatrix} \cdot  \begin{bmatrix}
+        1 & -1 \\
+        -1 & a
+      \end{bmatrix} = \begin{bmatrix}
+        1 & 0 \\
+        0 & 1
+      \end{bmatrix}$ seja verdadeira é:
+
+      \begin{tasks}(5)
+        \task 1
+        \task 2
+        \task 0
+        \task -2
+        \task -1
+      \end{tasks}
+    }
+
+  \item {
+      Dadas as matrizes $A = (a_{ij})_{9 \times 8}$, com $a_{ij} = 2j$; $B = (b_{ij})_{8 \times 6}$, com $b_{ij} = i$; e $C \cdot A$,
+      determine o elemento $C_{45}$ da matriz \textit{C}.
+    }
+
+  \item {
+      Dadas as matrizes $A = \begin{bmatrix}
+        1 & 2\\
+        0 & -3
+      \end{bmatrix}$, $B = \begin{bmatrix}
+        6 \\
+        -15
+      \end{bmatrix}$, obtenha a matriz \textit{X} tal que $A \cdot X = B$.
+    }
+\end{enumerate}
+
 
 
 

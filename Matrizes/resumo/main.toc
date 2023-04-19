@@ -12,6 +12,7 @@
 \contentsline {section}{\numberline {5}Operações entre Matrizes}{5}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Adição de matrizes}{5}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Subtração de Matrizes}{5}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Multiplicação de um número real por uma Matriz}{5}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Multiplicação de um número real por uma Matriz}{6}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Exercícios Propostos}{6}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Multiplicação de Matrizes}{6}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Exercícios Propostos}{7}{subsection.5.6}%
