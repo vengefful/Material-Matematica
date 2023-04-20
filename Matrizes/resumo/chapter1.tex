@@ -807,7 +807,7 @@ O esquema a seguir ajuda a visualizar essa definição:
         0 & 1
       \end{bmatrix}$ seja verdadeira é:
 
-      \begin{tasks}(5)
+      \begin{tasks}(3)
         \task 1
         \task 2
         \task 0
@@ -831,6 +831,190 @@ O esquema a seguir ajuda a visualizar essa definição:
       \end{bmatrix}$, obtenha a matriz \textit{X} tal que $A \cdot X = B$.
     }
 \end{enumerate}
+
+\subsection{Matrizes Inversas}
+
+\dfn{Matrizes Inversas}{
+  Uma matriz \textit{A} de ordem \textit{n} é \textbf{invertível} se, e somente se, 
+  existe uma matriz \textit{B} tal que:
+  \begin{equation*}
+    AB = BA = I_n
+  \end{equation*}
+  em que $I_n$ é a matriz identidade de ordem \textit{n}.
+}
+
+\begin{example}
+  As matrizes $A = \begin{bmatrix}
+    1 & 1 \\
+    3 & 4
+  \end{bmatrix}$ e $B = \begin{bmatrix}
+    4 & -1\\
+    -3 & 1
+  \end{bmatrix}$ são inversas entre si, pois:
+  \begin{equation*}
+    AB = \begin{bmatrix}
+      1 & 1 \\
+      3 & 4
+    \end{bmatrix} \cdot \begin{bmatrix}
+      4 & -1 \\
+      -3 & 1
+    \end{bmatrix} = \begin{bmatrix}
+      1 & 0 \\
+      0 & 1 \\
+    \end{bmatrix} = I_2 \text{  e  } BA = \begin{bmatrix}
+      4 & -1 \\
+      -3 & 1
+    \end{bmatrix} \cdot \begin{bmatrix}
+      1 & 1 \\
+      3 & 4
+    \end{bmatrix} = \begin{bmatrix}
+      1 & 0 \\
+      0 & 1
+    \end{bmatrix} = I_2
+  \end{equation*} 
+  Assim, indicamos $B = A^{-1}$ ou, de maneira equivalente, $A = B^{-1}$.
+\end{example}
+
+\begin{exercise}\leavevmode
+  Determinar, se existir, a inversa de cada uma das matrizes.
+
+  \begin{tasks}(2)
+    \task $A = \begin{bmatrix}
+      1 & 3 \\
+      0 & 2
+    \end{bmatrix}$
+
+    \task $B = \begin{bmatrix}
+      1 & 2 \\
+      2 & 4
+    \end{bmatrix}$
+  \end{tasks}
+
+  \vspace{.3cm}
+  \textbf{Resolução} \vspace{.3cm}
+
+  \begin{tasks}
+    \task {
+      Admitindo que $A^{-1} = \begin{bmatrix}
+        a & b \\
+        c & d
+      \end{bmatrix}$ seja a inversa da matriz \textit{A}, devemos ter 
+      $A \cdot A^{-1} = I_2$, ou seja:
+      \begin{equation*}
+        \begin{bmatrix}
+          1 & 3 \\
+          0 & 2
+        \end{bmatrix} \cdot \begin{bmatrix}
+          a & b \\
+          c & d
+        \end{bmatrix} = \begin{bmatrix}
+          1 & 0 \\
+          0 & 1
+        \end{bmatrix} \implies \begin{bmatrix}
+          a+3c & b+3d \\
+          2c & 2d
+        \end{bmatrix} = \begin{bmatrix}
+          1 & 0 \\
+          0 & 1
+        \end{bmatrix}
+      \end{equation*}
+      Igualando as matrizes, encontramos:
+      \systeme{
+        a + 3c = 1,
+        2c = 0,
+        b + 3d = 0,
+        2d = 1
+      } $\implies $ 
+      \systeme{
+        a + 3c = 1@(1),
+        c = 0@(2),
+        b+3d = 0@(3),
+        d=\frac{1}{2}@(4)
+      }
+
+      Substituindo (2) em (1), obtemos: $a = 1$
+
+      Substituindo (4) em (3), obtemos: $b = -\frac{3}{2}$
+
+      Assim, concluímos: $A^{-1} = \begin{bmatrix}
+        1 & -\frac{3}{2} \\
+        0 & \frac{1}{2}
+      \end{bmatrix}$
+    }
+
+    \task {
+      Admitindo que $B^{-1} = \begin{bmatrix}
+        a & b \\
+        c & d
+      \end{bmatrix}$ seja a inversa da matriz \textit{B}, devemos ter 
+      $B \cdot B^{-1} = I_2$, ou seja:
+      \begin{equation*}
+        \begin{bmatrix}
+          1 & 2 \\
+          2 & 4
+        \end{bmatrix} \cdot \begin{bmatrix}
+          a & b \\
+          c & d
+        \end{bmatrix} = \begin{bmatrix}
+          1 & 0 \\
+          0 & 1
+        \end{bmatrix} \implies \begin{bmatrix}
+          a+2c & b+2d \\
+          2a+4c & 2b+4d
+        \end{bmatrix} = \begin{bmatrix}
+          1 & 0 \\
+          0 & 1
+        \end{bmatrix}
+      \end{equation*}
+
+      Igualando as matrizes, encontramos:
+      \systeme{
+        a+2c = 1,
+        2a+4c = 0,
+        b+2d = 0,
+        2b+4d=1
+      } $\implies $
+      \systeme{
+        a+2c = 1@(1),
+        a+2c=0@(2),
+        b+2d=0@(3),
+        b+2d=\frac{1}{2}@(4)
+      }
+
+      Logo, o sistema é impossível de responder, pois não existe solução e dessa forma 
+      não existe matriz inversa de \textit{B}.
+    }
+  \end{tasks}
+\end{exercise}
+
+\subsection{Exercícios Propostos}
+
+\begin{enumerate}[label*=\protect\fbox{\arabic{enumi}}]
+  \item {
+      Obtenha, se existir, a inversa de cada matriz:
+      \begin{tasks}(4)
+        \task $A = \begin{bmatrix}
+          3 & 6 \\
+          0 & 1
+        \end{bmatrix}$
+        \task $B = \begin{bmatrix}
+          3 & 5 \\
+          1 & 2 
+        \end{bmatrix}$
+        \task $C = \begin{bmatrix}
+          1 & 1 \\
+          1 & 1
+        \end{bmatrix}$
+        \task $D = \begin{bmatrix}
+          0 & 2 & 0 \\
+          0 & 0 & 1 \\
+          1 & 0 & 0
+        \end{bmatrix}$
+      \end{tasks}
+    }
+    
+\end{enumerate}
+
 
 
 

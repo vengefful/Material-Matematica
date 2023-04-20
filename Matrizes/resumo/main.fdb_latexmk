@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1681947116 "main.tex" "main.pdf" "main" 1681947119 0
+["pdflatex"] 1681958506 "main.tex" "main.pdf" "main" 1681958509 0
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1681830606 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1681830606 2375 baa924870cfb487815765f9094cf3728 ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1681830606 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -383,14 +383,14 @@
   "/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1681830606 4643533 08d3dc06272b28feda59206cf7fda33d ""
   "/opt/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1681830606 7885798 e7a25833a1f6d58db2fe06a15e48fc86 ""
   "/opt/texlive/2023/texmf.cnf" 1681830606 585 cbdac2c540e67e6925735bc924caa885 ""
-  "chapter1.aux" 1681947118 3883 7f39ccf6c5e8ed0112c9fb562d9a6ff5 "pdflatex"
-  "chapter1.tex" 1681947111 23511 b600f42a418709fc51321067f1169a61 ""
+  "chapter1.aux" 1681958509 4136 ced7aab77fbb67e6a626777297969b29 "pdflatex"
+  "chapter1.tex" 1681958501 27779 1494fef533ad853ff48b9aa73ba876f1 ""
   "images/quadrada.png" 1681835163 8431 1f9377bafea24b7b86bac723e71bbd3e ""
   "images/quadro.png" 1681835163 14823 7267c11025f0c6ac34245927d0871c0d ""
-  "main.aux" 1681947118 678 c73b05dfdb1b6b9accc343835ccfddf0 "pdflatex"
-  "main.out" 1681947118 2759 d3bf9d927fd2831ad762d165869b5dc5 "pdflatex"
+  "main.aux" 1681958509 678 ac32aa8188bc1e3a816a09dd52ecab99 "pdflatex"
+  "main.out" 1681958509 3069 2edad8612836b103cda98d8908f10129 "pdflatex"
   "main.tex" 1681945270 14740 644a7991f9043c90e5e8a29b65c02fe3 ""
-  "main.toc" 1681947118 1466 110c58d4a0c741ddbcd01d8eb38c029b "pdflatex"
+  "main.toc" 1681958509 1636 0f8e44729e8a73057c9b8e3152d8056a "pdflatex"
   (generated)
   "chapter1.aux"
   "main.aux"

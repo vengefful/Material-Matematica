@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  19 APR 2023 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  19 APR 2023 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1304,7 +1304,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout2 = `chapter1.aux'.
 
  (./chapter1.tex
-<images/quadro.png, id=144, 466.74374pt x 149.55875pt>
+<images/quadro.png, id=154, 466.74374pt x 149.55875pt>
 File: images/quadro.png Graphic file (type png)
 <use images/quadro.png>
 Package pdftex.def Info: images/quadro.png  used on input line 5.
@@ -1315,28 +1315,28 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2
 
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./images/quadro.png>]
-<images/quadrada.png, id=168, 247.92625pt x 91.34125pt>
+<images/quadrada.png, id=178, 247.92625pt x 91.34125pt>
 File: images/quadrada.png Graphic file (type png)
 <use images/quadrada.png>
 Package pdftex.def Info: images/quadrada.png  used on input line 136.
 (pdftex.def)             Requested size: 157.57297pt x 58.054pt.
- [3 <./images/quadrada.png>] [4] [5] [6] [7]) [8] (./main.aux (./chapter1.aux))
+ [3 <./images/quadrada.png>] [4] [5] [6] [7] [8]) [9] (./main.aux (./chapter1.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D3BF9D927FD2831AD762D165869B5DC5;2759.
+(rerunfilecheck)             Checksum: 2EDAD8612836B103CDA98D8908F10129;3069.
  ) 
 Here is how much of TeX's memory you used:
- 52326 strings out of 476017
- 1215799 string characters out of 5765323
- 1916666 words of memory out of 5000000
- 71657 multiletter control sequences out of 15000+600000
+ 52364 strings out of 476017
+ 1216320 string characters out of 5765323
+ 1915666 words of memory out of 5000000
+ 71682 multiletter control sequences out of 15000+600000
  574110 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,21n,99p,1178b,1710s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (8 pages, 273020 bytes).
+Output written on main.pdf (9 pages, 278955 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
- 107 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
