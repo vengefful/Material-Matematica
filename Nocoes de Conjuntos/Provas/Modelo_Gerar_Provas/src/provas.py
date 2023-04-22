@@ -5,6 +5,17 @@ import re
 from random import sample, randint
 from PyPDF2 import PdfMerger
 
+tema = 'Recuperação de Matemática - Bimestre I'
+qtd = 160
+
+latex_main = 'main.tex'
+
+parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+provas_dir = os.path.join(parent_dir, 'provas')
+pdfs_dir = os.path.join(parent_dir, 'pdfs')
+pdfs_resp_dir = os.path.join(parent_dir, 'pdfs_resp')
+regex_tema = '@tema@'
+
 def questao1(data):
     conj_A = set(sample(range(-5, 5), 4))
     conj_B = set(sample(range(-5, 5), 5))
@@ -141,19 +152,6 @@ def questao5(data):
     data = re.sub("@q5sBdA@", str(BdA), data)
 
     return data
-
-
-tema = 'Recuperação de Matemática - Bimestre I'
-qtd = 2
-
-latex_main = 'main.tex'
-
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-provas_dir = os.path.join(parent_dir, 'provas')
-pdfs_dir = os.path.join(parent_dir, 'pdfs')
-pdfs_resp_dir = os.path.join(parent_dir, 'pdfs_resp')
-regex_tema = '@tema@'
-
 
 # creating provas directory
 if not os.path.isdir(provas_dir):
