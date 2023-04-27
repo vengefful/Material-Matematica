@@ -3,18 +3,19 @@ import shutil
 import subprocess
 import re
 from random import sample, randint
-from PyPDF2 import PdfMerger
+from PyPF2 import PdfMerger
 
-tema = 'Recuperação de Matemática - Bimestre I'
+tema = "Recuperação de Matemática - Bimestre I"
 qtd = 160
 
-latex_main = 'main.tex'
+latex_main = "main.tex"
 
 parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-provas_dir = os.path.join(parent_dir, 'provas')
-pdfs_dir = os.path.join(parent_dir, 'pdfs')
-pdfs_resp_dir = os.path.join(parent_dir, 'pdfs_resp')
-regex_tema = '@tema@'
+provas_dir = os.path.join(parent_dir, "provas")
+pdfs_dir = os.path.join(parent_dir, "pdfs")
+pdfs_resp_dir = os.path.join(parent_dir, "pdfs_resp")
+regex_tema = "@tema@"
+
 
 def questao1(data):
     conj_A = set(sample(range(-5, 5), 4))
@@ -36,6 +37,7 @@ def questao1(data):
 
     return data
 
+
 def questao2(data):
     conj_A = set(sample(range(-7, 10), 8))
     conj_B = set(sample(range(-7, 10), 8))
@@ -52,39 +54,38 @@ def questao2(data):
 
     return data
 
+
 def questao3(data):
     a = sample(range(-10, 10), 2)
     a.sort()
-    a2 = [
-        ']' if randint(0, 100) < 50 else '[',
-        '[' if randint(0, 100) < 50 else ']'
-        ]
+    a2 = ["]" if randint(0, 100) < 50 else "[", "[" if randint(0, 100) < 50 else "]"]
     a_colc = f"{a2[0]} {a[0]},{a[1]}{a2[1]}"
     data = re.sub("@q3A@", a_colc[:-1], data)
     data = re.sub("@q3A2@", a_colc[-1:], data)
     a = sample(range(-10, 10), 2)
     a.sort()
     a2 = [
-        '<' if randint(0, 100) < 50 else r'\\leq',
-        '<' if randint(0, 100) < 50 else r'\\leq'
-        ]
+        "<" if randint(0, 100) < 50 else r"\\leq",
+        "<" if randint(0, 100) < 50 else r"\\leq",
+    ]
     a_chav = f"{a[0]} {a2[0]} x {a2[1]} {a[1]}"
     data = re.sub("@q3B@", a_chav, data)
     a = randint(-10, 10)
-    a2 = ']t' if randint(0, 100) < 50 else '[]'
+    a2 = "]t" if randint(0, 100) < 50 else "[]"
     a_colc = f"{a}{a2[:-1]}"
     data = re.sub("@q3C@", a_colc[:-1], data)
     data = re.sub("@q3C2@", a_colc[-1:], data)
     a = sample(range(-10, 10), 2)
     a.sort()
     a2 = [
-        '<' if randint(0, 100) < 50 else r'\\leq',
-        '<' if randint(0, 100) < 50 else r'\\leq'
-        ]
+        "<" if randint(0, 100) < 50 else r"\\leq",
+        "<" if randint(0, 100) < 50 else r"\\leq",
+    ]
     a_chav = f"{a[0]} {a2[0]} x {a2[1]} {a[1]}"
     data = re.sub("@q3D@", a_chav, data)
 
     return data
+
 
 def questao4(data):
     mhs = randint(10, 50)
@@ -94,10 +95,7 @@ def questao4(data):
     s = randint(mhs + sh + ms, mhs + sh + ms + 200)
     h = randint(mhs + sh + mh, mhs + sh + mh + 200)
     m = randint(mhs + ms + mh, mhs + ms + mh + 200)
-    t = randint(
-            s + h + m - sh - ms - mh + mhs,
-            s + h + m - sh - ms - mh + mhs + 350
-            )
+    t = randint(s + h + m - sh - ms - mh + mhs, s + h + m - sh - ms - mh + mhs + 350)
     u = s + h + m - sh - ms - mh + mhs
 
     n_sh = sh - mhs
@@ -133,6 +131,7 @@ def questao4(data):
 
     return data
 
+
 def questao5(data):
     nAuB = randint(10, 30)
     AiB = randint(20, 40)
@@ -153,6 +152,7 @@ def questao5(data):
 
     return data
 
+
 # creating provas directory
 if not os.path.isdir(provas_dir):
     os.mkdir(provas_dir)
@@ -163,20 +163,16 @@ if not os.path.isdir(pdfs_resp_dir):
 
 # copying files from parent folder to provas dir
 shutil.copytree(
-        os.path.join(parent_dir, 'figures'),
-        os.path.join(provas_dir, 'figures'),
-        dirs_exist_ok=True
-        )
+    os.path.join(parent_dir, "figures"),
+    os.path.join(provas_dir, "figures"),
+    dirs_exist_ok=True,
+)
 
 for i in range(qtd):
     # copying tex file to folder
-    shutil.copy2(
-            os.path.join(parent_dir, latex_main),
-            os.path.join(provas_dir)
-            )
+    shutil.copy2(os.path.join(parent_dir, latex_main), os.path.join(provas_dir))
 
-    with open(os.path.join(provas_dir, latex_main),
-              'r', encoding='utf-8') as file:
+    with open(os.path.join(provas_dir, latex_main), "r", encoding="utf-8") as file:
         main_tex = file.read()
 
     # disabling printanswers
@@ -192,39 +188,36 @@ for i in range(qtd):
         if j == 0:
             pass
         else:
-            main_tex = re.sub(r'%\\printanswers', r'\\printanswers', main_tex)
+            main_tex = re.sub(r"%\\printanswers", r"\\printanswers", main_tex)
         # saving main_tex file
-        with open(
-                os.path.join(provas_dir, latex_main),
-                'w', encoding='utf-8') as file:
+        with open(os.path.join(provas_dir, latex_main), "w", encoding="utf-8") as file:
             file.write(main_tex)
 
         # call pdf latex cleaning files
-        subprocess.call([
-            'latexmk',
-            '-C',
-            os.path.join(provas_dir, latex_main),
-            '-quiet'
-            ])
+        subprocess.call(
+            ["latexmk", "-C", os.path.join(provas_dir, latex_main), "-quiet"]
+        )
 
         # call pdf latex generating pdf
-        subprocess.call([
-            'latexmk',
-            '-pdf',
-            os.path.join(provas_dir, latex_main),
-            f"--output-directory={os.path.join(provas_dir)}",
-            '-quiet'
-            ])
+        subprocess.call(
+            [
+                "latexmk",
+                "-pdf",
+                os.path.join(provas_dir, latex_main),
+                f"--output-directory={os.path.join(provas_dir)}",
+                "-quiet",
+            ]
+        )
         if j == 0:
             shutil.move(
-                    os.path.join(provas_dir, 'main.pdf'),
-                    os.path.join(pdfs_dir, f"main_{i}.pdf")
-                    )
+                os.path.join(provas_dir, "main.pdf"),
+                os.path.join(pdfs_dir, f"main_{i}.pdf"),
+            )
         else:
             shutil.move(
-                    os.path.join(provas_dir, 'main.pdf'),
-                    os.path.join(pdfs_resp_dir, f"main_{i}.pdf")
-                    )
+                os.path.join(provas_dir, "main.pdf"),
+                os.path.join(pdfs_resp_dir, f"main_{i}.pdf"),
+            )
 
 
 # merging pdfs

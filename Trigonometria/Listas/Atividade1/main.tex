@@ -6,8 +6,8 @@
 %\usepackage{mathrsfs}
 \usepackage{graphicx,color}
 \usepackage[x11names]{xcolor}
-\usepackage{venndiagram}
 \usepackage{epic,eepic}
+\usepackage{float}
 %\usepackage{mathpazo}
 \usepackage{url}
 \usepackage{tasks} % cria lista curta
@@ -19,6 +19,8 @@
 \usepackage{setspace}
 \DeclareMathOperator{\vecc}{vec}
 %\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+\providecommand{\sin}{} \renewcommand{\sin}{\hspace{2pt}\mathrm{sen}}
+\providecommand{\tan}{} \renewcommand{\tan}{\hspace{2pt}\mathrm{tg}}
 
 \global\vbadness=1616
 
@@ -30,11 +32,11 @@
 \def\arraystretch{2.0}
 \begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
 \hline 
-\textbf{Atividade de Matemática - Primeiro Bimestre} & Pontos Obtidos $\downarrow$ \\
+\textbf{Avaliação de Matemática - Primeiro Bimestre} & Pontos Obtidos $\downarrow$ \\
 \hline 
 Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &   \\ 
 \hline 
-\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 2 hrs} \\
+\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hrs} \\
 \hline
 \end{tabular} 
 \end{center}
@@ -56,61 +58,57 @@ Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total 
 %%Now the actual paper!
 \begin{questions}
 \question[2] 
-Um terreno tem a forma de um triângulo retângulo. Algumas de suas medidas estão indicadas, em metros, na figura. 
-Determine as medidas de \textbf{x} e \textbf{y} dos lados desse terreno.
 
-\begin{figure}[htb!]
+Na figura abaixo, uma árvore é vista sob um ângulo de $30^\circ$, a uma distância de $30$m de sua base. A altura da árvore, em metros, é igual a: 
+
+\begin{figure}[H]
   \centering
-  \includegraphics[width=.3\linewidth]{figures/img1.png}
-\end{figure}
-
-\question[2] 
-Calcule a soma dos catetos do triângulo retângulo da figura, sabendo que $AB = 10$ e $BC = 6$.
-
-
-\begin{figure}[htb!]
-  \centering
-  \includegraphics[width=.3\linewidth]{figures/img2.png}
+  \includegraphics[width=.4\linewidth]{figures/1.png}
 \end{figure}
 
 \begin{tasks}(5)
-  \task 6
-  \task 8
+  \task 35
+  \task 17
   \task 14
-  \task 2
-  \task 16
+  \task 28
+  \task 30
 \end{tasks}
 
 \question[2]
 
-Transforme em radianos as seguintes medidas de arcos em graus.
+Expresse em \textit{graus}:
 
 \begin{tasks}(2)
-  \task $30^{\circ}$
-  \task $300^{\circ}$
-  \task $1080^{\circ}$
-  \task $235^{\circ}$
-  \task $20^{\circ}$
-  \task $150^{\circ}$
+  \task $\dfrac{10\pi}{9}$ rad
+  \task $\dfrac{11\pi}{18}$ rad
 \end{tasks}
 
-\question[4]
+\question[2]
+
+Expresse em \textit{radianos}:
+
+\begin{tasks}(2)
+  \task $350^\circ$
+  \task $12^\circ$
+\end{tasks}
+
+\question[2]
+
+Calcule o valor das expressões:
+
+\begin{tasks}(2)
+  \task $E = \dfrac{\cos \dfrac{\pi}{3} + \sin \dfrac{\pi}{6}}{\tan \dfrac{\pi}{4}}$
+  \task $E = \dfrac{\cos 300^\circ - \sin 210^\circ}{\tan 135^\circ}$
+\end{tasks}
+
+\question[2]
 
 Calcule o valor de:
 
 \begin{tasks}(2)
-  \task $\cos 210^\circ$
-  \task $\sin 120^\circ$
-  \task $\tan 330^\circ$
-  \task $\tan 210^\circ$
-  \task $\cos 300^\circ$
-  \task $\sin 300^\circ$
-  \task $\cos 1200^\circ$
-  \task $\cos 1575^\circ$
-  \task $\sin 4200^\circ$
-  \task $\sin \frac{2\pi}{3}$
+  \task $\cos 750^\circ$
+  \task $\sin 1200^\circ$
 \end{tasks}
-
 
 \end{questions}
 \end{document}
