@@ -1,0 +1,4 @@
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {1}{Sistemas de coordenadas}{3}{0}{1}
+\beamer@sectionintoc {2}{O conceito de função}{6}{0}{2}
