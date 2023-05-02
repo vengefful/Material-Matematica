@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1682972560 "slide1.tex" "slide1.pdf" "slide1" 1682972562 0
+["pdflatex"] 1683005420 "introducao-ao-estudo-de-funcoes-beamer.tex" "introducao-ao-estudo-de-funcoes-beamer.pdf" "introducao-ao-estudo-de-funcoes-beamer" 1683005422 0
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1681830606 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1681830606 2840 216e6e45ad352e2456e1149f28885bee ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1681830606 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -409,17 +409,17 @@
   "/opt/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1681830606 7885798 e7a25833a1f6d58db2fe06a15e48fc86 ""
   "/opt/texlive/2023/texmf.cnf" 1681830606 585 cbdac2c540e67e6925735bc924caa885 ""
   "figures/3.png" 1682970597 267281 386efeb48d825c9c6cc3ea250ca6b96f ""
-  "slide1.aux" 1682972562 2596 6ebb91a35285a9ba9332fbe4a43024b1 "pdflatex"
-  "slide1.nav" 1682972562 1277 4148f31d2186351042a08f3b94522de6 "pdflatex"
-  "slide1.out" 1682972562 322 ebfbf64cbf66fff54d7dd492da2682b5 "pdflatex"
-  "slide1.tex" 1682972557 6852 d928c93964ae4faabcbefa321dd30ae9 ""
-  "slide1.toc" 1682972562 181 6dba0d0c87a0e70583b85ff18e1e7c73 "pdflatex"
+  "introducao-ao-estudo-de-funcoes-beamer.aux" 1683005422 2596 6ebb91a35285a9ba9332fbe4a43024b1 "pdflatex"
+  "introducao-ao-estudo-de-funcoes-beamer.nav" 1683005422 1277 4148f31d2186351042a08f3b94522de6 "pdflatex"
+  "introducao-ao-estudo-de-funcoes-beamer.out" 1683005422 322 ebfbf64cbf66fff54d7dd492da2682b5 "pdflatex"
+  "introducao-ao-estudo-de-funcoes-beamer.tex" 1683005418 6863 a187c83463baa46728214b5c7523fbb2 ""
+  "introducao-ao-estudo-de-funcoes-beamer.toc" 1683005422 181 6dba0d0c87a0e70583b85ff18e1e7c73 "pdflatex"
   (generated)
-  "slide1.aux"
-  "slide1.log"
-  "slide1.nav"
-  "slide1.out"
-  "slide1.pdf"
-  "slide1.snm"
-  "slide1.toc"
+  "introducao-ao-estudo-de-funcoes-beamer.aux"
+  "introducao-ao-estudo-de-funcoes-beamer.log"
+  "introducao-ao-estudo-de-funcoes-beamer.nav"
+  "introducao-ao-estudo-de-funcoes-beamer.out"
+  "introducao-ao-estudo-de-funcoes-beamer.pdf"
+  "introducao-ao-estudo-de-funcoes-beamer.snm"
+  "introducao-ao-estudo-de-funcoes-beamer.toc"
   (rewritten before read)

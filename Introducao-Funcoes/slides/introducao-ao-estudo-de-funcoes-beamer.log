@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  1 MAY 2023 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  2 MAY 2023 02:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**slide1.tex
-(./slide1.tex
+**introducao-ao-estudo-de-funcoes-beamer.tex
+(./introducao-ao-estudo-de-funcoes-beamer.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (/opt/texlive/2023/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2023/02/20 v3.69 A class for typesetting presentations
@@ -1252,8 +1252,8 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 46.
  (/opt/texlive/2023/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./slide1.aux)
-\openout1 = `slide1.aux'.
+) (./introducao-ao-estudo-de-funcoes-beamer.aux)
+\openout1 = `introducao-ao-estudo-de-funcoes-beamer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -1328,9 +1328,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 46.
- (./slide1.out) (./slide1.out)
+ (./introducao-ao-estudo-de-funcoes-beamer.out) (./introducao-ao-estudo-de-funcoes-beamer.out)
 \@outlinefile=\write5
-\openout5 = `slide1.out'.
+\openout5 = `introducao-ao-estudo-de-funcoes-beamer.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 46.
@@ -1393,7 +1393,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-(./slide1.nav) [1
+(./introducao-ao-estudo-de-funcoes-beamer.nav) [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
 Non-PDF special ignored!
@@ -1421,7 +1421,7 @@ Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
-{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] (./slide1.toc) [2
+{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] (./introducao-ao-estudo-de-funcoes-beamer.toc) [2
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 111.
@@ -1488,28 +1488,28 @@ Package pdftex.def Info: figures/3.png  used on input line 144.
 
 ]
 \tf@nav=\write6
-\openout6 = `slide1.nav'.
+\openout6 = `introducao-ao-estudo-de-funcoes-beamer.nav'.
 
 \tf@toc=\write7
-\openout7 = `slide1.toc'.
+\openout7 = `introducao-ao-estudo-de-funcoes-beamer.toc'.
 
 \tf@snm=\write8
-\openout8 = `slide1.snm'.
+\openout8 = `introducao-ao-estudo-de-funcoes-beamer.snm'.
 
- (./slide1.aux)
-Package rerunfilecheck Info: File `slide1.out' has not changed.
+ (./introducao-ao-estudo-de-funcoes-beamer.aux)
+Package rerunfilecheck Info: File `introducao-ao-estudo-de-funcoes-beamer.out' has not changed.
 (rerunfilecheck)             Checksum: EBFBF64CBF66FFF54D7DD492DA2682B5;322.
  ) 
 Here is how much of TeX's memory you used:
  48573 strings out of 476017
- 1132660 string characters out of 5765323
- 1891666 words of memory out of 5000000
+ 1133460 string characters out of 5765323
+ 1892666 words of memory out of 5000000
  67900 multiletter control sequences out of 15000+600000
  576649 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,122p,723b,967s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,122p,755b,967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss8.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss9.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on slide1.pdf (8 pages, 430109 bytes).
+Output written on introducao-ao-estudo-de-funcoes-beamer.pdf (8 pages, 429942 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream

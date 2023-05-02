@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1682960320 "aula1.tex" "aula1.pdf" "aula1" 1682960320 0
+["pdflatex"] 1682998018 "01-matrizes.tex" "01-matrizes.pdf" "01-matrizes" 1682998019 0
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1681830606 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1681830606 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1681830606 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -88,12 +88,12 @@
   "/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1681830606 4643533 08d3dc06272b28feda59206cf7fda33d ""
   "/opt/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1681830606 7885798 e7a25833a1f6d58db2fe06a15e48fc86 ""
   "/opt/texlive/2023/texmf.cnf" 1681830606 585 cbdac2c540e67e6925735bc924caa885 ""
-  "aula1.aux" 1682960320 1482 4d65191c8c626e2a2fff8759baaeb7e9 "pdflatex"
-  "aula1.out" 1682960320 793 65914d6599776775a285e9a9c4884385 "pdflatex"
-  "aula1.tex" 1682960320 3483 793a0b62ad9dd08b9d5fbaf1a3c6cfaa ""
+  "01-matrizes.aux" 1682998019 1482 4d65191c8c626e2a2fff8759baaeb7e9 "pdflatex"
+  "01-matrizes.out" 1682998019 793 65914d6599776775a285e9a9c4884385 "pdflatex"
+  "01-matrizes.tex" 1682998016 3496 3b3f2cefc0444fe77ddabb58e4474ec1 ""
   (generated)
-  "aula1.aux"
-  "aula1.log"
-  "aula1.out"
-  "aula1.pdf"
+  "01-matrizes.aux"
+  "01-matrizes.log"
+  "01-matrizes.out"
+  "01-matrizes.pdf"
   (rewritten before read)
