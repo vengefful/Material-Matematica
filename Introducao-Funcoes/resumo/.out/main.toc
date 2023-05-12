@@ -1,0 +1,10 @@
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\contentsline {section}{\numberline {1}Introdução ao estudo das funções}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Sistemas de coordenadas}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Sistema cartesiano ortogonal de coordenadas}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Exercícios Propostos}{4}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}O conceito de função}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}A noção de função no cotidiano}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Exercícios Propostos}{6}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Formalização do conceito de função}{8}{subsubsection.1.2.3}%
