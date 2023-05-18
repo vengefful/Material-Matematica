@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1683761145 "main.tex" ".out/main.pdf" "main" 1683761149 0
-  ".out/main.aux" 1683761148 678 ba9c08e88a76949abc4407c15a4d0cfd "pdflatex"
-  ".out/main.out" 1683761148 3069 2edad8612836b103cda98d8908f10129 "pdflatex"
-  ".out/main.toc" 1683761148 1636 0f8e44729e8a73057c9b8e3152d8056a "pdflatex"
-  ".out/matrizes.aux" 1683761148 4136 d066e4f23e4a92905468d25b51f2ce55 "pdflatex"
+["pdflatex"] 1684195041 "main.tex" ".out/main.pdf" "main" 1684195044 0
+  ".out/main.aux" 1684195044 678 ba9c08e88a76949abc4407c15a4d0cfd "pdflatex"
+  ".out/main.out" 1684195044 3069 2edad8612836b103cda98d8908f10129 "pdflatex"
+  ".out/main.toc" 1684195044 1636 0f8e44729e8a73057c9b8e3152d8056a "pdflatex"
+  ".out/matrizes.aux" 1684195044 4136 d066e4f23e4a92905468d25b51f2ce55 "pdflatex"
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1681830606 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1681830606 2375 baa924870cfb487815765f9094cf3728 ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1681830606 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -389,8 +389,8 @@
   "/opt/texlive/2023/texmf.cnf" 1681830606 585 cbdac2c540e67e6925735bc924caa885 ""
   "images/quadrada.png" 1681835163 8431 1f9377bafea24b7b86bac723e71bbd3e ""
   "images/quadro.png" 1681835163 14823 7267c11025f0c6ac34245927d0871c0d ""
-  "main.tex" 1683761131 14740 280a3bde1d38a38248d0dfd5807e9e7f ""
-  "matrizes.tex" 1681958501 27779 1494fef533ad853ff48b9aa73ba876f1 ""
+  "main.tex" 1684017571 14740 280a3bde1d38a38248d0dfd5807e9e7f ""
+  "matrizes.tex" 1684195040 27790 2fc241b50063f8376fc7bb6a190daa00 ""
   (generated)
   ".out/main.aux"
   ".out/main.log"
