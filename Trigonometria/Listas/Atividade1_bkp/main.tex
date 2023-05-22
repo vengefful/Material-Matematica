@@ -1,0 +1,360 @@
+%%Template made by Uday Khankhoje for examinations using the exam template
+%%Refer to the documentation http://www-math.mit.edu/~psh/exam/examdoc.pdf 
+%%for lot more bells and whistles to the standard template shown below
+\documentclass[a4paper,11pt,addpoints]{exam}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm]{geometry}
+%\usepackage{mathrsfs}
+\usepackage{graphicx,color}
+\usepackage[x11names]{xcolor}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{epic,eepic}
+\usepackage{float}
+%\usepackage{mathpazo}
+\usepackage{url}
+\usepackage{tasks} % cria lista curta
+\usepackage{multicol}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz,tkz-base, tkz-fct,tikz-3dplot,tikz-cd,tkz-tab,tkz-euclide,pgf,pgfplots}
+\usepackage{pstricks}
+\usepackage{pst-plot}
+\pointsinmargin
+\boxedpoints 
+\renewcommand*\half{.5}
+\usepackage{setspace}
+\DeclareMathOperator{\vecc}{vec}
+%\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+\providecommand{\sin}{} \renewcommand{\sin}{\hspace{2pt}\mathrm{sen}}
+\providecommand{\tan}{} \renewcommand{\tan}{\hspace{2pt}\mathrm{tg}}
+
+\global\vbadness=1616
+
+\begin{document}
+\noindent 
+%%PART 1 of header
+\begin{center}
+	\vspace*{-3em}
+\def\arraystretch{2.0}
+\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
+\hline 
+\textbf{Avaliação de Matemática - Primeiro Bimestre} & Pontos Obtidos $\downarrow$ \\
+\hline 
+\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth}} \\
+\hline
+\end{tabular} 
+\end{center}
+%%PART 2 of header, if you have too many questions, this may be a problem
+%%if so, use \multirowgradetable{n}[questions], where n is the number of rows you want
+%%or, switch to \gradetable[h][pages] instead, 
+\begin{center}
+% \gradetable[h][questions]
+\end{center}
+%%PART 3 of header
+%%toggle comment on next line to show/hide the answers
+% \printanswers
+%%Now the actual paper!
+
+\begin{center}
+  Pinte as Respostas abaixo:
+  \vspace*{1em}
+
+  \begin{tikzpicture}
+    \tkzDefPoints{0/0/A, 9/0/B, 0/-5/C, 9/-5/D}
+    \tkzDrawPolygon[thick](A,B,D,C)
+
+    % \tkzDefPoint(1,-1){q1}
+    % \tkzDrawPoint(q1)
+
+    \tkzDefPoints{0.2/-0.2/A1, .7/-0.2/B1, 0.2/-.7/C1, .7/-.7/D1}
+    \tkzDrawPolygon[thick, fill=black](A1,B1,D1,C1)
+
+    \tkzText[scale=1.5](1.2, -0.45){A}
+    \tkzText[scale=1.5](1.9, -0.45){B}
+    \tkzText[scale=1.5](2.6, -0.45){C}
+    \tkzText[scale=1.5](3.3, -0.45){D}
+    \tkzText[scale=1.5](4.0, -0.45){E}
+
+    \tkzText[scale=1.5](0.45, -1.15){1}
+    \tkzText[scale=1.5](0.45, -1.92){2}
+    \tkzText[scale=1.5](0.45, -2.68){3}
+    \tkzText[scale=1.5](0.45, -3.4){4}
+    \tkzText[scale=1.5](0.45, -4.15){5}
+
+    \tkzDefPoint(1.2,-1.15){c1A}
+    \tkzDefPoint(1.45,-1.15){c1Af}
+    \tkzDrawCircle[thick](c1A, c1Af)
+
+    \tkzDefPoint(1.9,-1.15){c1B}
+    \tkzDefPoint(2.15,-1.15){c1Bf}
+    \tkzDrawCircle[thick](c1B, c1Bf)
+
+    \tkzDefPoint(2.6,-1.15){c1C}
+    \tkzDefPoint(2.85,-1.15){c1Cf}
+    \tkzDrawCircle[thick](c1C, c1Cf)
+
+    \tkzDefPoint(3.3,-1.15){c1D}
+    \tkzDefPoint(3.55,-1.15){c1Df}
+    \tkzDrawCircle[thick](c1D, c1Df)
+
+    \tkzDefPoint(4.0,-1.15){c1E}
+    \tkzDefPoint(4.25,-1.15){c1Ef}
+    \tkzDrawCircle[thick](c1E, c1Ef)
+
+    \tkzDefPoint(1.2,-1.9){c2A}
+    \tkzDefPoint(1.45,-1.9){c2Af}
+    \tkzDrawCircle[thick](c2A, c2Af)
+
+    \tkzDefPoint(1.9,-1.9){c2B}
+    \tkzDefPoint(2.15,-1.9){c2Bf}
+    \tkzDrawCircle[thick](c2B, c2Bf)
+
+    \tkzDefPoint(2.6,-1.9){c2C}
+    \tkzDefPoint(2.85,-1.9){c2Cf}
+    \tkzDrawCircle[thick](c2C, c2Cf)
+
+    \tkzDefPoint(3.3,-1.9){c2D}
+    \tkzDefPoint(3.55,-1.9){c2Df}
+    \tkzDrawCircle[thick](c2D, c2Df)
+
+    \tkzDefPoint(4.0,-1.9){c2E}
+    \tkzDefPoint(4.25,-1.9){c2Ef}
+    \tkzDrawCircle[thick](c2E, c2Ef)
+
+    \tkzDefPoint(1.2,-2.65){c3A}
+    \tkzDefPoint(1.45,-2.65){c3Af}
+    \tkzDrawCircle[thick](c3A, c3Af)
+
+    \tkzDefPoint(1.9,-2.65){c3B}
+    \tkzDefPoint(2.15,-2.65){c3Bf}
+    \tkzDrawCircle[thick](c3B, c3Bf)
+
+    \tkzDefPoint(2.6,-2.65){c3C}
+    \tkzDefPoint(2.85,-2.65){c3Cf}
+    \tkzDrawCircle[thick](c3C, c3Cf)
+
+    \tkzDefPoint(3.3,-2.65){c3D}
+    \tkzDefPoint(3.55,-2.65){c3Df}
+    \tkzDrawCircle[thick](c3D, c3Df)
+
+    \tkzDefPoint(4.0,-2.65){c3E}
+    \tkzDefPoint(4.25,-2.65){c3Ef}
+    \tkzDrawCircle[thick](c3E, c3Ef)
+
+    \tkzDefPoint(1.2,-3.4){c4A}
+    \tkzDefPoint(1.45,-3.4){c4Af}
+    \tkzDrawCircle[thick](c4A, c4Af)
+
+    \tkzDefPoint(1.9,-3.4){c4B}
+    \tkzDefPoint(2.15,-3.4){c4Bf}
+    \tkzDrawCircle[thick](c4B, c4Bf)
+
+    \tkzDefPoint(2.6,-3.4){c4C}
+    \tkzDefPoint(2.85,-3.4){c4Cf}
+    \tkzDrawCircle[thick](c4C, c4Cf)
+
+    \tkzDefPoint(3.3,-3.4){c4D}
+    \tkzDefPoint(3.55,-3.4){c4Df}
+    \tkzDrawCircle[thick](c4D, c4Df)
+
+    \tkzDefPoint(4.0,-3.4){c4E}
+    \tkzDefPoint(4.25,-3.4){c4Ef}
+    \tkzDrawCircle[thick](c4E, c4Ef)
+
+    \tkzDefPoint(1.2,-4.15){c5A}
+    \tkzDefPoint(1.45,-4.15){c5Af}
+    \tkzDrawCircle[thick](c5A, c5Af)
+
+    \tkzDefPoint(1.9,-4.15){c5B}
+    \tkzDefPoint(2.15,-4.15){c5Bf}
+    \tkzDrawCircle[thick](c5B, c5Bf)
+
+    \tkzDefPoint(2.6,-4.15){c5C}
+    \tkzDefPoint(2.85,-4.15){c5Cf}
+    \tkzDrawCircle[thick](c5C, c5Cf)
+
+    \tkzDefPoint(3.3,-4.15){c5D}
+    \tkzDefPoint(3.55,-4.15){c5Df}
+    \tkzDrawCircle[thick](c5D, c5Df)
+
+    \tkzDefPoint(4.0,-4.15){c5E}
+    \tkzDefPoint(4.25,-4.15){c5Ef}
+    \tkzDrawCircle[thick](c5E, c5Ef)
+
+    \tkzDefPoint(4.5,0){P}
+    \tkzDefPoint(4.5,-5){P1}
+    \tkzDrawSegment[dashed](P,P1)
+
+    \tkzDefPoints{4.7/-0.2/A2, 5.2/-0.2/B2, 4.7/-0.7/C2, 5.2/-0.7/D2}
+    \tkzDrawPolygon[thick, fill=black](A2,B2,D2,C2)
+
+    \tkzText[scale=1.5](5.7, -0.45){A}
+    \tkzText[scale=1.5](6.4, -0.45){B}
+    \tkzText[scale=1.5](7.1, -0.45){C}
+    \tkzText[scale=1.5](7.8, -0.45){D}
+    \tkzText[scale=1.5](8.5, -0.45){E}
+
+    \tkzText[scale=1.5](4.95, -1.15){1}
+    \tkzText[scale=1.5](4.95, -1.92){2}
+    \tkzText[scale=1.5](4.95, -2.68){3}
+    \tkzText[scale=1.5](4.95, -3.4){4}
+    \tkzText[scale=1.5](4.95, -4.15){5}
+
+    \tkzDefPoint(5.7,-1.15){c1A}
+    \tkzDefPoint(5.95,-1.15){c1Af}
+    \tkzDrawCircle[thick](c1A, c1Af)
+
+    \tkzDefPoint(6.4,-1.15){c1B}
+    \tkzDefPoint(6.65,-1.15){c1Bf}
+    \tkzDrawCircle[thick](c1B, c1Bf)
+
+    \tkzDefPoint(7.1,-1.15){c1C}
+    \tkzDefPoint(7.35,-1.15){c1Cf}
+    \tkzDrawCircle[thick](c1C, c1Cf)
+
+    \tkzDefPoint(7.8,-1.15){c1D}
+    \tkzDefPoint(8.05,-1.15){c1Df}
+    \tkzDrawCircle[thick](c1D, c1Df)
+
+    \tkzDefPoint(8.5,-1.15){c1E}
+    \tkzDefPoint(8.75,-1.15){c1Ef}
+    \tkzDrawCircle[thick](c1E, c1Ef)
+
+    \tkzDefPoint(5.7,-1.9){c2A}
+    \tkzDefPoint(5.95,-1.9){c2Af}
+    \tkzDrawCircle[thick](c2A, c2Af)
+
+    \tkzDefPoint(6.4,-1.9){c2B}
+    \tkzDefPoint(6.65,-1.9){c2Bf}
+    \tkzDrawCircle[thick](c2B, c2Bf)
+
+    \tkzDefPoint(7.1,-1.9){c2C}
+    \tkzDefPoint(7.35,-1.9){c2Cf}
+    \tkzDrawCircle[thick](c2C, c2Cf)
+
+    \tkzDefPoint(7.8,-1.9){c2D}
+    \tkzDefPoint(8.05,-1.9){c2Df}
+    \tkzDrawCircle[thick](c2D, c2Df)
+
+    \tkzDefPoint(8.5,-1.9){c2E}
+    \tkzDefPoint(8.75,-1.9){c2Ef}
+    \tkzDrawCircle[thick](c2E, c2Ef)
+
+    \tkzDefPoint(5.7,-2.65){c3A}
+    \tkzDefPoint(5.95,-2.65){c3Af}
+    \tkzDrawCircle[thick](c3A, c3Af)
+
+    \tkzDefPoint(6.4,-2.65){c3B}
+    \tkzDefPoint(6.65,-2.65){c3Bf}
+    \tkzDrawCircle[thick](c3B, c3Bf)
+
+    \tkzDefPoint(7.1,-2.65){c3C}
+    \tkzDefPoint(7.35,-2.65){c3Cf}
+    \tkzDrawCircle[thick](c3C, c3Cf)
+
+    \tkzDefPoint(7.8,-2.65){c3D}
+    \tkzDefPoint(8.05,-2.65){c3Df}
+    \tkzDrawCircle[thick](c3D, c3Df)
+
+    \tkzDefPoint(8.5,-2.65){c3E}
+    \tkzDefPoint(8.75,-2.65){c3Ef}
+    \tkzDrawCircle[thick](c3E, c3Ef)
+
+    \tkzDefPoint(5.7,-3.4){c4A}
+    \tkzDefPoint(5.95,-3.4){c4Af}
+    \tkzDrawCircle[thick](c4A, c4Af)
+
+    \tkzDefPoint(6.4,-3.4){c4B}
+    \tkzDefPoint(6.65,-3.4){c4Bf}
+    \tkzDrawCircle[thick](c4B, c4Bf)
+
+    \tkzDefPoint(7.1,-3.4){c4C}
+    \tkzDefPoint(7.35,-3.4){c4Cf}
+    \tkzDrawCircle[thick](c4C, c4Cf)
+
+    \tkzDefPoint(7.8,-3.4){c4D}
+    \tkzDefPoint(8.05,-3.4){c4Df}
+    \tkzDrawCircle[thick](c4D, c4Df)
+
+    \tkzDefPoint(8.5,-3.4){c4E}
+    \tkzDefPoint(8.75,-3.4){c4Ef}
+    \tkzDrawCircle[thick](c4E, c4Ef)
+
+    \tkzDefPoint(5.7,-4.15){c5A}
+    \tkzDefPoint(5.95,-4.15){c5Af}
+    \tkzDrawCircle[thick](c5A, c5Af)
+
+    \tkzDefPoint(6.4,-4.15){c5B}
+    \tkzDefPoint(6.65,-4.15){c5Bf}
+    \tkzDrawCircle[thick](c5B, c5Bf)
+
+    \tkzDefPoint(7.1,-4.15){c5C}
+    \tkzDefPoint(7.35,-4.15){c5Cf}
+    \tkzDrawCircle[thick](c5C, c5Cf)
+
+    \tkzDefPoint(7.8,-4.15){c5D}
+    \tkzDefPoint(8.05,-4.15){c5Df}
+    \tkzDrawCircle[thick](c5D, c5Df)
+
+    \tkzDefPoint(8.5,-4.15){c5E}
+    \tkzDefPoint(8.75,-4.15){c5Ef}
+    \tkzDrawCircle[thick](c5E, c5Ef)
+  \end{tikzpicture}
+\end{center}
+
+\begin{questions}
+
+\question
+Na figura abaixo, uma árvore é vista sob um ângulo de $30^\circ$, a uma distância de $30$m de sua base. A altura da árvore, em metros, é igual a: 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.4\linewidth]{figures/1.png}
+\end{figure}
+
+\begin{tasks}(5)
+  \task 35
+  \task 17
+  \task 14
+  \task 28
+  \task 30
+\end{tasks}
+
+
+\question
+Expresse em \textit{graus}:
+
+\begin{tasks}(2)
+  \task $\dfrac{10\pi}{9}$ rad
+  \task $\dfrac{11\pi}{18}$ rad
+\end{tasks}
+
+
+\question
+Expresse em \textit{radianos}:
+
+\begin{tasks}(2)
+  \task $350^\circ$
+  \task $12^\circ$
+\end{tasks}
+
+
+\question
+Calcule o valor das expressões:
+
+\begin{tasks}(2)
+  \task $E = \dfrac{\cos \dfrac{\pi}{3} + \sin \dfrac{\pi}{6}}{\tan \dfrac{\pi}{4}}$
+  \task $E = \dfrac{\cos 300^\circ - \sin 210^\circ}{\tan 135^\circ}$
+\end{tasks}
+
+
+\question
+Calcule o valor de:
+
+\begin{tasks}(2)
+  \task $\cos 750^\circ$
+  \task $\sin 1200^\circ$
+\end{tasks}
+
+\end{questions}
+\end{document}
