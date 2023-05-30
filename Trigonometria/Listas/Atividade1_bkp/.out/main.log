@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  22 MAY 2023 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  23 MAY 2023 07:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1241,7 +1241,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figures/1.png, id=41, 221.82875pt x 159.59625pt>
 File: figures/1.png Graphic file (type png)
 <use figures/1.png>
-Package pdftex.def Info: figures/1.png  used on input line 312.
+Package pdftex.def Info: figures/1.png  used on input line 315.
 (pdftex.def)             Requested size: 204.85672pt x 147.38554pt.
  [1
 Non-PDF special ignored!
@@ -1277,15 +1277,15 @@ This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
 (.out/main.aux) ) 
 Here is how much of TeX's memory you used:
- 45736 strings out of 476017
- 1092347 string characters out of 5765323
- 1946666 words of memory out of 5000000
- 65287 multiletter control sequences out of 15000+600000
+ 45678 strings out of 476017
+ 1091601 string characters out of 5765323
+ 1943666 words of memory out of 5000000
+ 65229 multiletter control sequences out of 15000+600000
  517589 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,10n,99p,721b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on .out/main.pdf (1 page, 91963 bytes).
+Output written on .out/main.pdf (1 page, 91926 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

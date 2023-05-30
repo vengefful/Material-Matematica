@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1683841067 "main.tex" ".out/main.pdf" "main" 1683841071 0
-  ".out/introducao-ao-estudo-das-funcoes.aux" 1683841071 2928 bc6cd24d05a63e35e73e5ff4d3b6656e "pdflatex"
-  ".out/main.aux" 1683841071 727 9192790beba28c39dea79c2471ab21e8 "pdflatex"
-  ".out/main.out" 1683841071 1722 7bac75e0a92f9e095bb6d8fe70c8a418 "pdflatex"
-  ".out/main.toc" 1683841071 870 b6c16799a0b3ecb29bce03c31a69ea91 "pdflatex"
+["pdflatex"] 1684864545 "main.tex" ".out/main.pdf" "main" 1684864550 0
+  ".out/introducao-ao-estudo-das-funcoes.aux" 1684864549 2928 bc6cd24d05a63e35e73e5ff4d3b6656e "pdflatex"
+  ".out/main.aux" 1684864549 727 9192790beba28c39dea79c2471ab21e8 "pdflatex"
+  ".out/main.out" 1684864549 1722 7bac75e0a92f9e095bb6d8fe70c8a418 "pdflatex"
+  ".out/main.toc" 1684864549 870 b6c16799a0b3ecb29bce03c31a69ea91 "pdflatex"
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1681830606 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1681830606 2375 baa924870cfb487815765f9094cf3728 ""
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1681830606 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -450,7 +450,7 @@
   "figures/4.png" 1682792680 5488 14061ed01be71f07d8ca9e484cab0df9 ""
   "figures/5.png" 1682795460 7009 780b94bdc00a58f3d828dfd0f1de98c8 ""
   "figures/6.png" 1682795934 7957 333026aaadfc928448c51fc59e2e8f02 ""
-  "introducao-ao-estudo-das-funcoes.tex" 1682884041 32714 152f1d096b40b10428ffb2d90963e822 ""
+  "introducao-ao-estudo-das-funcoes.tex" 1684863439 32713 1d7f5d01b3b16d6370fb573c51a8d8e2 ""
   "main.tex" 1682966467 15146 c36b3c6502bc85795abb6c3db3ed7a62 ""
   (generated)
   ".out/introducao-ao-estudo-das-funcoes.aux"

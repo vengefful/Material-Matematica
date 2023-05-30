@@ -1,0 +1,156 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage[a4paper, left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{array}
+\usepackage{varwidth}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{mathtools} % Wraparound amsmath. For fancy math typesetting
+\usepackage{tasks}
+\usepackage{hyperref}
+\usepackage{lmodern,mathrsfs}
+\usepackage[table,dvipsnames]{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\renewcommand{\headrulewidth}{0pt}
+% table propriedades
+\setlength{\tabcolsep}{10pt} % Gap before text Starts
+\renewcommand{\arraystretch}{1.5} % Cell Height Scaling
+\arrayrulecolor{blue} % Table border color
+\newcolumntype{s}{>{\columncolor{blue!10}} c}
+\setlength\headheight{50pt} 
+\begin{document}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \lhead{\begin{Figure}
+    \centering
+    \includegraphics[scale=.5]{figures/3.png}
+  \end{Figure}}
+  \chead{\begin{Figure}
+    \centering
+    \includegraphics[scale=.7]{figures/1.png}
+  \end{Figure}}
+  \rhead{\begin{Figure}
+    \centering
+    \includegraphics[scale=.5]{figures/2.png}
+  \end{Figure}}
+  \begin{center}
+
+    \textbf{ESCOLA ESTADUAL PROFESSOR LIMA CASTRO}
+
+    Rua Washington Luís, S/N - Pindorama - CEP: 57230-000
+
+    Regime Especial de Atividades Escolares Não Presenciais
+
+    \vspace{.5cm}
+    \textbf{ROTEIRO DE ESTUDO}
+    \vspace{.5cm}
+
+    \begin{tabular}{|s|s|}
+      \hline
+      \rowcolor{blue!25} \textbf{Laboratório} & Matemática \\ \hline
+      \textbf{Etapa} & Ensino Médio \\ \hline
+      \textbf{Turmas} & $1^\circ$ anos \\ \hline
+      \textbf{Professores} & Fernando, Leandro e Olavo \\ \hline
+      \textbf{Período} & 24 a 26 de maio de 2023 \\ \hline
+      \rowcolor{blue!25} \textbf{Cronograma Semanal} & Segundo o horário oficial da escola \\ \hline
+      \textbf{Componente Curricular} & Matemática e Resolução de Problemas \\ \hline
+      \textbf{Tema} & Equações do $1^\circ$ grau \\ \hline
+      \textbf{Habilidades} & EF07MA13, EF07MA15, EF07MA16, EF07MA18\\ \hline
+      \textbf{Objetivos} & Resolver Equações do Primeiro Grau \\ \hline
+      \textbf{Objetivos Específicos} & Desenvolver o raciocínio lógico \\ \hline
+    \end{tabular}
+  \end{center}
+
+
+  \section{Equações do $1^\circ$ grau}
+
+  \subsection{Definição}
+  Toda sentença aberta expressa por uma igualdade é uma equação.
+
+  \vspace{.5cm}
+
+  \begin{center}
+    \begin{tabular}{|s|s|}
+      \hline
+      \rowcolor{blue!25} \textbf{São Equações} & \textbf{Não São Equações} \\ \hline
+      $x + 12 = 21$ & x + 4 < 7 \\ \hline
+      $3x + 7 = 23 + x$ & 5 + 4 = 9 \\ \hline
+      $2x -4 = 0$ & $5 - 3 \neq 9$ \\ \hline
+    \end{tabular}
+    
+  \end{center}
+
+  \vspace{.5cm}
+
+  \textbf{Obs:} Equações do primeiro grau são todas as equações que apresentam uma incógnita cujo expoente é igual a 1.
+
+  \subsection{Resolução de uma Equação}
+
+  \begin{enumerate}
+    \item Resolva as seguintes equações:
+      \begin{tasks}(2)
+        \task $5x + 3 = 38$
+        \task $8x - 11 = 4x + 13$
+        \task $4x + 5 = 15$
+        \task $\dfrac{4x-5}{3} = 5$
+        \task $2(x+5) - 4 = 26$
+        \task $\dfrac{x}{2} + \dfrac{x}{3} = 5$
+      \end{tasks}
+  \end{enumerate}
+
+  \subsection{Exercícios Propostos}
+
+  \begin{enumerate}
+    \item Resolva as seguintes equações:
+      \begin{tasks}
+        \task $x + 9 = -1$
+        \task $2x - 2 = 12 - 5x$
+        \task $7y - 10 = y + 50$
+        \task $2(2x+7) + 3(3x-5) = 3(4x-5) - 1$
+        \task $\dfrac{2x + 14}{10} = 3$
+        \task $\dfrac{x+3}{4}+\dfrac{x+1}{6} = 3$
+        \task $4(2m-1) + 3m = 2(4m-1)-(2-m)$
+        \task $4x+5=x+20$
+      \end{tasks}
+
+    \item O dobro de um número somado com 5 é igual a 91. Expresse a equação que representa o problema e responda que número é este.
+
+    \item O perímetro de um retângulo mede 92cm. Quais são suas medidas, sabendo que o comprimento tem 8cm a mais que a largura?
+
+    \item A soma de um número com o dobro do consecutivo dá 206. Qual é esse número?
+
+    \item A metade dos objetos de uma caixa mais a terça parte desses objetos é igual a 25. Quantos objetos há na caixa?
+  \end{enumerate}
+
+  \section{Referências}
+
+  \subsection{Links Youtube}
+
+  \begin{tasks}
+    \task[\#] \url{https://youtu.be/j6dy4VrsFvA}
+    \task[\#] \url{https://youtu.be/x4k8950MVeg}
+    \task[\#] \url{https://youtu.be/bWJrg5DyuMY}
+  \end{tasks}
+
+  \subsection{Livros e Material em PDF}
+
+  \begin{tasks}
+    \task[\#] \url{https://bit.ly/430DkEb} -  Linguagens e Aplicações (Página 158)
+    \task[\#] \url{https://bit.ly/43nQLhm} - Araribá mais Matemática (Página 170)
+  \end{tasks}
+
+
+
+\end{document}
