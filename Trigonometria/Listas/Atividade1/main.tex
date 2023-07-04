@@ -14,7 +14,7 @@
 \usepackage{multicol}
 \usepackage{amsmath, amsthm, amssymb}
 \pointsinmargin
-\boxedpoints 
+\boxedpoints
 \renewcommand*\half{.5}
 \usepackage{setspace}
 \DeclareMathOperator{\vecc}{vec}
@@ -25,90 +25,84 @@
 \global\vbadness=1616
 
 \begin{document}
-\noindent 
+\noindent
 %%PART 1 of header
 \begin{center}
 	\vspace*{-3em}
-\def\arraystretch{2.0}
-\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
-\hline 
-\textbf{Avaliação de Matemática - Primeiro Bimestre} & Pontos Obtidos $\downarrow$ \\
-\hline 
-Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &   \\ 
-\hline 
-\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hrs} \\
-\hline
-\end{tabular} 
+	\def\arraystretch{2.0}
+	\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
+		\hline
+		\textbf{Recuperação de Matemática - Primeiro Bimestre}                                                        & Pontos Obtidos $\downarrow$ \\
+		\hline
+		Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &                             \\
+		\hline
+		\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hrs}                                              \\
+		\hline
+	\end{tabular}
 \end{center}
 %%PART 2 of header, if you have too many questions, this may be a problem
 %%if so, use \multirowgradetable{n}[questions], where n is the number of rows you want
 %%or, switch to \gradetable[h][pages] instead, 
 \begin{center}
-\gradetable[h][questions]
+	\gradetable[h][questions]
 \end{center}
 %%PART 3 of header
 \textbf{Instruções
-\begin{enumerate}
-    \item Explique todas as questões claramente.
-    \item Necessário todos os cálculos.
-\end{enumerate}
+	\begin{enumerate}
+		\item Explique todas as questões claramente.
+		\item Necessário todos os cálculos.
+	\end{enumerate}
 }
 %%toggle comment on next line to show/hide the answers
 % \printanswers
 %%Now the actual paper!
 \begin{questions}
-\question[2] 
+	\question[2]
 
-Na figura abaixo, uma árvore é vista sob um ângulo de $30^\circ$, a uma distância de $30$m de sua base. A altura da árvore, em metros, é igual a: 
+	Na figura abaixo, uma árvore é vista sob um ângulo de $60^\circ$, a uma distância de $60$m de sua base. Qual sua altura em metros?
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.4\linewidth]{figures/1.png}
+	\end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=.4\linewidth]{figures/1.png}
-\end{figure}
+	\question[2]
 
-\begin{tasks}(5)
-  \task 35
-  \task 17
-  \task 14
-  \task 28
-  \task 30
-\end{tasks}
+	Expresse em \textit{graus}:
 
-\question[2]
+	\begin{tasks}(2)
+		\task $\dfrac{5\pi}{3}$ rad
+		\task $\dfrac{8\pi}{5}$ rad
+		\task $\dfrac{12\pi}{7}$ rad
+		\task $\dfrac{3\pi}{10}$ rad
+		\task $\dfrac{2\pi}{5}$ rad
+	\end{tasks}
 
-Expresse em \textit{graus}:
+	\question[2]
 
-\begin{tasks}(2)
-  \task $\dfrac{10\pi}{9}$ rad
-  \task $\dfrac{11\pi}{18}$ rad
-\end{tasks}
+	Expresse em \textit{radianos}:
 
-\question[2]
+	\begin{tasks}(2)
+		\task $350^\circ$
+		\task $12^\circ$
+	\end{tasks}
 
-Expresse em \textit{radianos}:
+	\question[2]
 
-\begin{tasks}(2)
-  \task $350^\circ$
-  \task $12^\circ$
-\end{tasks}
+	Calcule o valor das expressões:
 
-\question[2]
+	\begin{tasks}(2)
+		\task $E = \dfrac{\cos \dfrac{\pi}{3} + \sin \dfrac{\pi}{6}}{\tan \dfrac{\pi}{4}}$
+		\task $E = \dfrac{\cos 300^\circ - \sin 210^\circ}{\tan 135^\circ}$
+	\end{tasks}
 
-Calcule o valor das expressões:
+	\question[2]
 
-\begin{tasks}(2)
-  \task $E = \dfrac{\cos \dfrac{\pi}{3} + \sin \dfrac{\pi}{6}}{\tan \dfrac{\pi}{4}}$
-  \task $E = \dfrac{\cos 300^\circ - \sin 210^\circ}{\tan 135^\circ}$
-\end{tasks}
+	Calcule o valor de:
 
-\question[2]
-
-Calcule o valor de:
-
-\begin{tasks}(2)
-  \task $\cos 750^\circ$
-  \task $\sin 1200^\circ$
-\end{tasks}
+	\begin{tasks}(2)
+		\task $\cos 750^\circ$
+		\task $\sin 1200^\circ$
+	\end{tasks}
 
 \end{questions}
 \end{document}
