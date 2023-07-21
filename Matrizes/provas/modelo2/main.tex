@@ -1,0 +1,170 @@
+%%Template made by Uday Khankhoje for examinations using the exam template
+%%Refer to the documentation http://www-math.mit.edu/~psh/exam/examdoc.pdf
+%%for lot more bells and whistles to the standard template shown below
+\documentclass[a4paper,11pt,addpoints]{exam}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm]{geometry}
+%\usepackage{mathrsfs}
+\usepackage{graphicx,color}
+\usepackage[x11names]{xcolor}
+\usepackage{venndiagram}
+\usepackage{epic,eepic}
+%\usepackage{mathpazo}
+\usepackage{url}
+\usepackage{tasks} % cria lista curta
+\usepackage{multicol}
+\usepackage{amsmath, amsthm, amssymb}
+\pointsinmargin
+\boxedpoints
+\renewcommand*\half{.5}
+\usepackage{setspace}
+\DeclareMathOperator{\vecc}{vec}
+%\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+
+\global\vbadness=1616
+
+\begin{document}
+\noindent
+%%PART 1 of header
+\begin{center}
+	\vspace*{-3em}
+	\def\arraystretch{2.0}
+	\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
+		\hline
+		\textbf{Avaliação de Matemática - Segundo Bimestre}                                                           & Pontos Obtidos $\downarrow$ \\
+		\hline
+		Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &                             \\
+		\hline
+		\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hr}                                               \\
+		\hline
+	\end{tabular}
+\end{center}
+%%PART 2 of header, if you have too many questions, this may be a problem
+%%if so, use \multirowgradetable{n}[questions], where n is the number of rows you want
+%%or, switch to \gradetable[h][pages] instead,
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+%%PART 3 of header
+\textbf{Instruções
+	\begin{enumerate}
+		\item Explique todas as questões claramente.
+		\item Necessário todos os cálculos.
+	\end{enumerate}
+}
+%%toggle comment on next line to show/hide the answers
+% \printanswers
+%%Now the actual paper!
+\begin{questions}
+
+	\question[1]
+
+    Um construtor tem contratos para construir 3 estilos de casa: moderno, mediterrâneo e colonial. A
+    quantidate de material empregada em cada tipo de casa é dada pela matriz:
+
+	\begin{equation*}
+		\begin{bmatrix}
+            5 & 20 & 16 & 7 & 17 \\
+            7 & 18 & 12 & 9 & 21 \\
+            6 & 25 & 8 & 5 & 13
+		\end{bmatrix}
+	\end{equation*}
+
+    Onde Linha 1 é estilo moderno, linha 2 estilo Mediterrâneo e linha 3 estilo Colonia.
+    Coluna 1 é referente ao material de Ferro, coluna 2 é referente ao material de Madeira,
+    coluna 3 é referente a Vidro, coluna 4 refere-se a Tinta e coluna 5 refere-se a Tijolo.
+
+    Pergunta-se:
+
+	\begin{tasks}
+		\task Se ele vai construir 5, 7 e 12 casas dos tipos moderno, mediterrâneo
+        e colonial, respectivamente, quantas unidades de cada material serão empregadas?
+		\task Suponha agora que os preços por unidade de ferro, madeira, vidro, tinta e
+        tijolo sejam, respectivamente, R\$ 15.00, R\$ 8.00, R\$ 5.00, R\$ 1.00, R\$ 10.00.
+        Qual é o preço unitário de cada tipo de casa?
+		\task Qual o custo total do material empregado?
+	\end{tasks}
+
+	\question[1]
+
+	Determine a matriz X em cada uma das situações abaixo:
+
+	\begin{tasks}(2)
+		\task { $X - \begin{bmatrix}
+					-4 & 5 \\
+					-1 & 1 \\
+					2 & -6
+				\end{bmatrix} = \begin{bmatrix}
+					5 & 0 \\
+					2 & 3 \\
+					7 & 8
+				\end{bmatrix}$}
+		\task { $4 \cdot \begin{bmatrix}
+					-4 & 1 & -3  \\
+					3 & -7 & 1 \\
+				\end{bmatrix} + X = 5 \cdot \begin{bmatrix}
+					3 & -2 & -1 \\
+					3 & 2 & -1
+				\end{bmatrix}$}
+	\end{tasks}
+
+	\question[1]
+
+	Sendo as matrizes $A = \begin{bmatrix}
+			1 & -2 & 2 \\
+			-3 & 6 & 1
+		\end{bmatrix}$, $B = \begin{bmatrix}
+			2 & -1 \\
+			5 & -4 \\
+			3 & -2
+		\end{bmatrix}$ e $C = \begin{bmatrix}
+			3  & -2 & 5  \\
+			-1 & 1  & -2
+		\end{bmatrix}$, determine:
+
+	\begin{tasks}
+		\task $A \cdot B$
+		\task $B \cdot C$
+	\end{tasks}
+
+	\question[1]
+
+	A partir da matriz $A = (a_{ij})_{2 \times 2}$ tal que $a_{ij} = -3i + 4j$
+	e $B = (b_{ij})_{2 \times 2}$ tal que $b_{ij} = 2i + 3j$,
+	determine a matriz $A + B$.
+
+	\question[1]
+
+    Um professor aplica, durante os cinco dias úteis de uma semana, testes com quatro
+    questões de múltipla escolha a cinco alunos. Os resultados foram representados
+    na matriz:
+
+
+	\begin{equation*}
+		\begin{bmatrix}
+            3 & 2 & 0 & 1 & 2 \\
+            3 & 2 & 4 & 1 & 2 \\
+            2 & 2 & 2 & 3 & 2 \\
+            3 & 2 & 4 & 1 & 0 \\
+            0 & 2 & 0 & 4 & 4
+		\end{bmatrix}
+	\end{equation*}
+
+    Nessa matriz os elementos das linhas de 1 a 5 representam as quantidadeas de questões
+    acertadas pelos alunos Ana, Bruno, Carlos, Denis e Érica, respectivamente, enquanto
+    que as colunas de 1 a 5 indicam os dias da semana, de segunda-feira a sexta-feira,
+    respectivamente, em que os testes foram aplicados.
+
+    O teste que apresentou maior quantidade de acertos foi aplicado na:
+
+	\begin{tasks}(5)
+		\task segunda-feira
+		\task terça-feira
+		\task quarta-feira
+		\task quinta-feira
+		\task sexta-feira
+	\end{tasks}
+
+
+
+\end{questions}
+\end{document}
