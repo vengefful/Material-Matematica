@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.20)  25 JUL 2023 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.2)  7 JUL 2023 01:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -600,7 +600,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (./main.aux)
+) (.out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -680,24 +680,24 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 5 points.
 This exam has a total of 0 bonus points.
-(./main.aux) ) 
+(.out/main.aux) ) 
 Here is how much of TeX's memory you used:
- 16869 strings out of 477400
- 326890 string characters out of 5828522
- 1878388 words of memory out of 5000000
- 36935 multiletter control sequences out of 15000+600000
- 517584 words of font info for 52 fonts, out of 8000000 for 9000
+ 16871 strings out of 477400
+ 326921 string characters out of 5828523
+ 1880388 words of memory out of 5000000
+ 36937 multiletter control sequences out of 15000+600000
+ 517589 words of font info for 52 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
  99i,11n,94p,434b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (2 pages, 96193 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on .out/main.pdf (2 pages, 104498 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
