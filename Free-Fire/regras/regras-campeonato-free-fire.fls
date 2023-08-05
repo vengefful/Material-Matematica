@@ -1,8 +1,8 @@
 PWD /home/fernando/Documents/Material-Matematica/Free-Fire/regras
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT main.tex
-OUTPUT main.log
+INPUT regras-campeonato-free-fire.tex
+OUTPUT regras-campeonato-free-fire.log
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -1035,12 +1035,12 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/enumerate.sty
-INPUT ./main.aux
-INPUT main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT ./regras-campeonato-free-fire.aux
+INPUT regras-campeonato-free-fire.aux
+INPUT regras-campeonato-free-fire.aux
+OUTPUT regras-campeonato-free-fire.aux
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
-OUTPUT main.pdf
+OUTPUT regras-campeonato-free-fire.pdf
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1146,7 +1146,7 @@ INPUT ./2-Imagens/bracket.png
 INPUT 2-Imagens/bracket.png
 INPUT ./2-Imagens/bracket.png
 INPUT ./2-Imagens/bracket.png
-INPUT main.aux
+INPUT regras-campeonato-free-fire.aux
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb

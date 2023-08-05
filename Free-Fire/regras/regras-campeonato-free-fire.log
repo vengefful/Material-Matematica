@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.20)  3 AUG 2023 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.20)  5 AUG 2023 10:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**regras-campeonato-free-fire.tex
+(./regras-campeonato-free-fire.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -892,8 +892,8 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \mc@col@check@num=\count382
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 168.
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./regras-campeonato-free-fire.aux)
+\openout1 = `regras-campeonato-free-fire.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -959,7 +959,7 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 39.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-./main.tex:39: Undefined control sequence.
+./regras-campeonato-free-fire.tex:39: Undefined control sequence.
 <recently read> \curso 
                        
 l.39 \imprimircapa
@@ -1029,47 +1029,51 @@ Overfull \hbox (37.35431pt too wide) in paragraph at lines 144--145
 []\T1/ptm/m/n/12 Caso haja descrumpimento de alguma das normas, a equipe será automaticamente desclassificada. 
  []
 
-<2-Imagens/bracket.png, id=59, 720.6925pt x 719.68875pt>
+<2-Imagens/bracket.png, id=59, 751.80875pt x 564.1075pt>
 File: 2-Imagens/bracket.png Graphic file (type png)
 <use 2-Imagens/bracket.png>
 Package pdftex.def Info: 2-Imagens/bracket.png  used on input line 160.
-(pdftex.def)             Requested size: 409.49722pt x 408.92004pt.
+(pdftex.def)             Requested size: 409.49722pt x 307.26463pt.
 [3] [4 <./2-Imagens/bracket.png>]
-Overfull \hbox (22.61963pt too wide) in paragraph at lines 251--254
+Overfull \hbox (22.61963pt too wide) in paragraph at lines 248--251
 []\T1/ptm/m/n/12 Será proibido todo e qualquer tipo de linguagem que contenha palavras obscenas, difamatórias,
  []
 
 
-Overfull \hbox (4.35551pt too wide) in paragraph at lines 251--254
+Overfull \hbox (4.35551pt too wide) in paragraph at lines 248--251
 \T1/ptm/m/n/12 machistas, vulgares, libidinosas e/ou racistas que sejam ofensivas com o próximo e consigo
  []
 
 
-Overfull \hbox (5.9019pt too wide) in paragraph at lines 262--267
+Overfull \hbox (5.9019pt too wide) in paragraph at lines 259--264
 []\T1/ptm/m/n/12 A falta de tipificação específica neste documento não impede que a Comissão Organizadora
  []
 
 
-Overfull \hbox (13.75491pt too wide) in paragraph at lines 262--267
+Overfull \hbox (13.75491pt too wide) in paragraph at lines 259--264
 \T1/ptm/m/n/12 aja e tome decisões sobre qualquer assunto não previsto. No intuito de preservar a integridade
  []
 
 
-Overfull \hbox (21.43103pt too wide) in paragraph at lines 267--269
+Overfull \hbox (21.43103pt too wide) in paragraph at lines 264--266
 []\T1/ptm/m/n/12 Os casos omissos serão resolvidos pela Comissão Organizadora, não podendo essas resoluções
  []
 
-) [5] (./main.aux) ) 
+) [5] (./regras-campeonato-free-fire.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  19956 strings out of 477400
- 318047 string characters out of 5828522
+ 318300 string characters out of 5828522
  1864388 words of memory out of 5000000
  39942 multiletter control sequences out of 15000+600000
  550722 words of font info for 82 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 90i,12n,91p,519b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,91p,542b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (6 pages, 221710 bytes).
+Output written on regras-campeonato-free-fire.pdf (6 pages, 175136 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams

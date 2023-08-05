@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1691106940 "main.tex" "main.pdf" "main" 1691106940 2
+["pdflatex"] 1691243789 "regras-campeonato-free-fire.tex" "regras-campeonato-free-fire.pdf" "regras-campeonato-free-fire" 1691243790 2
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1689853683 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1689853683 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1689853683 4484 b828043cbd581d289d955903c1339981 ""
@@ -148,14 +148,14 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1689870240 4537599 8adb845cba3ff6a7936ced95118e81d4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1689870235 6891340 50cfebd3acd1408f04bd1b5542754403 ""
-  "1-textos/1-introdução.tex" 1691106938 12400 a976ff43782ef01d6bbf2052d1c8a808 ""
-  "2-Imagens/bracket.png" 1691098209 95751 0c96eda8d638b4da8cec7e7e9d60afcc ""
+  "1-textos/1-introdução.tex" 1691243683 12270 b392f2cfd101e39747796622f02a35fb ""
+  "2-Imagens/bracket.png" 1691243358 49206 60534812be19f6dc50f5a7dfc75d2bc1 ""
   "2-Imagens/logo_seduc.png" 1691026464 59720 f203249568253396a3f801ce2b1c26f3 ""
-  "main.aux" 1691106940 1792 5a1728861279c84ec23eb1220434fdb0 "pdflatex"
-  "main.tex" 1691101893 2843 1152d27fb33388087d93d1c79e4fd5da ""
   "pacotes/IFBA.sty" 1691101679 4336 ad6e56376e38afd1b23a501d4ae3ba99 ""
+  "regras-campeonato-free-fire.aux" 1691243790 1792 5a1728861279c84ec23eb1220434fdb0 "pdflatex"
+  "regras-campeonato-free-fire.tex" 1691101893 2843 1152d27fb33388087d93d1c79e4fd5da ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.pdf"
+  "regras-campeonato-free-fire.aux"
+  "regras-campeonato-free-fire.log"
+  "regras-campeonato-free-fire.pdf"
   (rewritten before read)
