@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   	  INSTITUTO FEDERAL DA BAHIA-IFBA       %
+%        MODELO DE  RELATÓRIO                   %
+%              By   Valdex Santos               %
+%       Mais templates em gg.gg/profwaldexsantos%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,openright,oneside,a4paper]{abntex2}
+%Chamando a classe e pacotes necessários
+\usepackage{pacotes/IFBA}
+%================================================
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\nomeInst{Escola Estadual Professor Lima Castro\\Secretaria de Educação do Estado de Alagoas\\$2^\circ$ Gerência Regional}% nome da instituição
+\logoInst{\includegraphics[width=1.3\textwidth]{2-Imagens/logo_seduc.png}} % logo da instituição
+% \nomeCurso{CURSO DE BACHARELADO EM ENGENHARIA MECÂNICA}% curso
+%================================================
+
+\titulo{Campeonato Free Fire Lima Castro\\Regulamento Geral}
+% ---------------------------------------------------
+\autor{Org: Fernando Jorge Siqueira Cavalcante}
+% ---------------------------------------------------
+\nomeComiss{Antônio Lima Bispo\\Edenilza Mendonça de Santana\\Eduina Bezerra França\\Leandro Carvalho de Santana\\Wendson Macário Damaceno}
+% ---------------------------------------------------
+\local{Coruripe-AL}
+\data{2023}
+\tipotrabalho{Relatório técnico em \LaTeX}
+% O preambulo deve conter o tipo do trabalho e disciplina avaliada
+\preambulo{Relatório de Cálculo Numérico apresentado ao prof. Me. Valdex Santos como requisito avaliativo da disciplina, referente a I unidade.}
+%##############################################################
+% INICIO DO DOCUMENTO
+\begin{document}
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+
+% Capa
+\imprimircapa%
+
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% \imprimirfolhaderosto*
+% inserir o sumario
+
+
+\pdfbookmark[0]{\contentsname}{toc}
+% \tableofcontents*
+\cleardoublepage
+
+% \input{1-textos/resumo.tex}
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\input{1-textos/1-introdução}
+% \input{1-textos/2-referencial teorico}
+% \input{1-textos/3-metodologia}
+% \input{1-textos/4-desenvolvimento}
+% \input{1-textos/5-conclusão}
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+% \bibliography{referencias}
+
+
+\end{document}

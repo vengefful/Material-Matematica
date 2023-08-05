@@ -1,0 +1,169 @@
+% ---
+% INICIO DAS CUSTOMIZAÇÕES PARA O FORMATO DE RELATÓRIO
+% ---
+
+\ProvidesPackage{pacotes/IFBA}[08/03/2023 Criacao desta customizacao do abnTeX2 por Valdex Santos]
+
+%NOVOS COMANDOS DA CAPA
+\newcommand{\logoInst}[1]{
+\newcommand{\logo}{#1}
+}
+
+\newcommand{\nomeInst}[1]{
+\newcommand{\inst}{#1}
+}
+
+\newcommand{\nomeComiss}[1]{
+\newcommand{\comiss}{#1}
+}
+
+\newcommand{\nomeCurso}[1]{
+\newcommand{\curso}{#1}
+}
+% alterando a capa
+\renewcommand{\imprimircapa}{%
+  \begin{capa}%
+   \begin{center}
+    \begin{minipage}{0.2\textwidth}
+	\logo %inserindo a logo da instituição
+	\end{minipage}
+ \end{center}
+ 	\begin{minipage}{0.9\textwidth}
+  \begin{center}
+    \ABNTEXchapterfont\large{\inst\\ \curso}
+    \end{center}
+    \end{minipage}
+
+    \vfill
+    \begin{center}
+    \MakeUppercase{\ABNTEXchapterfont\bfseries\scshape\textbf\imprimirtitulo}
+    \vskip 5mm
+
+    \normalfont\imprimirautor
+    \vskip 1cm
+    \begin{flushright}
+        Comissão Organizadora:
+
+        \comiss
+    \end{flushright}
+    \vfill
+
+    \large\imprimirlocal
+
+    \large\imprimirdata
+
+    \vspace*{1cm}
+    \end{center}
+  \end{capa}
+}
+
+
+% folha de rosto
+
+\makeatletter
+
+\renewcommand{\folhaderostocontent}{
+\begin{center}
+{\ABNTEXchapterfont\large \inst\\ \curso}
+
+    \vspace*{3.5cm}
+
+\MakeUppercase{\ABNTEXchapterfont\bfseries\Large\imprimirtitulo}
+
+
+\end{center}
+\begin{center}
+{\ABNTEXchapterfont\large\imprimirautor}
+\end{center}
+
+\vspace{1cm}
+
+\abntex@ifnotempty{\imprimirpreambulo}{%
+  \hspace{.45\textwidth}
+  \begin{minipage}{.5\textwidth}
+  \SingleSpacing
+  \imprimirpreambulo
+  \end{minipage}%
+  \vspace*{\fill}
+}%
+
+
+{\large\imprimirorientadorRotulo~\imprimirorientador\par}
+
+\abntex@ifnotempty{\imprimircoorientador}{%
+  {\noindent\large\imprimircoorientadorRotulo~\imprimircoorientador}%
+}%
+
+\vspace*{\fill}
+
+%{\abntex@ifnotempty{\imprimirinstituicao}{\imprimirinstituicao\vspace*{\fill}}}
+
+\begin{center}
+{\large\imprimirlocal}
+
+\par
+
+{\large\imprimirdata}
+\vspace*{1cm}
+\end{center}
+}
+
+\makeatother
+
+% ---
+% FIM DAS CUSTOMIZACOES
+% ---
+
+
+%PACOTES UTILIZADOS
+\usepackage{times}			% Usa a fonte times
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{hyperref}
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage[ruled,vlined]{algorithm2e} %PARA TRABALHAR COM ALGORÍTMOS
+\usepackage{algorithmic} %OUTRA POSSIBILIDADE DE ESCREVER ALGORITMOS
+\usepackage{float}	%PERMITE usar H em figura
+\usepackage{amsfonts,amsthm, amssymb, amsmath}	% fonte e simbolos matemáticos
+\usepackage{cancel}     %cancelar termos numa expressão matemática
+\usepackage{verbatim}			% texto é interpretado como escrito no documento
+\usepackage{multirow, array}				% múltiplas linhas e colunas em     tabelas
+\usepackage{indentfirst}	% indenta o primeiro parágrafo de cada seção.
+\usepackage{subcaption}
+\usepackage{xcolor, colortbl}			% comandos de cores
+\usepackage{pdflscape}   % permite colocar página em formato paisagem
+\usepackage{lipsum}				% para geração de dummy text
+% Pacotes de citações
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf, abnt-emphasize=bf, bibjustif, recuo=0cm, abnt-etal-cite=2, abnt-etal-list=0]{abntex2cite}	% Citações padrão ABNT
+%LISTAS
+\usepackage{enumitem}
+\PassOptionsToPackage{shortlabels}{enumitem}
+\usepackage{multicol} %MULTICOLUNAS
+\usepackage{enumerate}
+%\setlist[enumerate,0]{label=\alph*}
+%===================%===================%
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title},
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={Valdex Santos},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório},
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% cor dos links internos
+    	citecolor=black,        		% cor dos links das referências.
+    	filecolor=magenta,      		% cor dos links de arquivos
+		urlcolor=blue,               %cor das urls
+		bookmarksdepth=4
+}
+\makeatother
