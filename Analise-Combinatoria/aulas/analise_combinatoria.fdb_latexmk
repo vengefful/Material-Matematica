@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694483753 "analise_combinatoria.tex" "analise_combinatoria.pdf" "analise_combinatoria" 1694483756 0
+["pdflatex"] 1694538928 "analise_combinatoria.tex" "analise_combinatoria.pdf" "analise_combinatoria" 1694538931 0
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1689853683 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1689853683 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1689853683 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -398,11 +398,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1693534560 4537599 8adb845cba3ff6a7936ced95118e81d4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1693534493 6891339 69acc18c39f8eedd61fde470618389ca ""
-  "analise_combinatoria.aux" 1694483755 4841 f46a2868718b91d0782f74a244a5227d "pdflatex"
-  "analise_combinatoria.nav" 1694483755 2806 986b3d4f9c3c01dbe248b74f14764d85 "pdflatex"
-  "analise_combinatoria.out" 1694483755 551 392b9a8b1271d3205361bc7a4717c611 "pdflatex"
-  "analise_combinatoria.tex" 1694483518 9511 82dec6239f521d2f1c892bef1e4782fb ""
-  "analise_combinatoria.toc" 1694483755 284 652436496aa4715a8a1a7ff1a7b95fc2 "pdflatex"
+  "analise_combinatoria.aux" 1694538930 5743 0a7969ddbebdd69bf52f5df983e4513c "pdflatex"
+  "analise_combinatoria.nav" 1694538930 3456 b9d35a836466188bdefa151786a9ad73 "pdflatex"
+  "analise_combinatoria.out" 1694538930 551 392b9a8b1271d3205361bc7a4717c611 "pdflatex"
+  "analise_combinatoria.tex" 1694538925 11478 7abb6ee8e34e5f0288f71db4b21f858f ""
+  "analise_combinatoria.toc" 1694538930 284 4f20da5e7aa8d5402de29638c961df95 "pdflatex"
   "images/im1.png" 1694477615 31059 d36fcc9968e9277e58c873cf2e35f1c5 ""
   "images/im3.png" 1694481797 1498 4057a20bb39c017741cb65ff83c00291 ""
   "images/im4.png" 1694482189 64763 73a85bb801401d3261f26bb086f3109c ""

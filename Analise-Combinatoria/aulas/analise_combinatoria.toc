@@ -1,6 +1,6 @@
 \babel@toc {brazilian}{}\relax 
 \babel@toc {brazilian}{}\relax 
 \beamer@sectionintoc {1}{Princípio Fundamental da Contagem}{3}{0}{1}
-\beamer@sectionintoc {2}{Fatorial}{9}{0}{2}
-\beamer@sectionintoc {3}{Tipos de Agrupamento}{12}{0}{3}
-\beamer@sectionintoc {4}{Permutação}{15}{0}{4}
+\beamer@sectionintoc {2}{Fatorial}{8}{0}{2}
+\beamer@sectionintoc {3}{Tipos de Agrupamento}{11}{0}{3}
+\beamer@sectionintoc {4}{Permutação}{14}{0}{4}

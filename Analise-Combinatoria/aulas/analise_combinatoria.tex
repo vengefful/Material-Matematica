@@ -90,7 +90,7 @@ A análise combinatória é um ramo da matemática que procura elaborar métodos
 
 %------------------------------------------------
 
-\begin{frame}{Princípio Fundamental da Contagem}
+\begin{frame}[t]{Princípio Fundamental da Contagem}
     Um restaurante oferece no cardápio 2 entradas distintas, 3 tipos de pratos principais e 3 sobremesas diferentes.
     Uma pessoa deseja uma salada, um prato principal e uma sobremesa. De quantas maneiras a pessoa
     poderá fazer seu pedido?
@@ -99,7 +99,7 @@ A análise combinatória é um ramo da matemática que procura elaborar métodos
 
 %------------------------------------------------
 
-\begin{frame}{Princípio Fundamental da Contagem}
+\begin{frame}[t]{Princípio Fundamental da Contagem}
     \begin{center}
         Cuidado com o uso do PFC para eventos dependentes!
     \end{center}
@@ -108,20 +108,6 @@ A análise combinatória é um ramo da matemática que procura elaborar métodos
 
 %------------------------------------------------
 
-\begin{frame}{Princípio Fundamental da Contagem}
-    \textbf{Três homens e três mulheres devem posar para uma fotografia em seis degraus de uma escada, uma pessoa em cada degrau.}
-
-    \begin{enumerate}
-        \item Em quantas disposições diferentes essas pessoas podem ser colocadas?
-        \item Em quantas disposições diferentes podem ser colocadas essas pessoas de modo
-            que em dois degraus consecutivos não fiquem pessoas do mesmo sexo?
-        \item Em quantas disposições diferentes podem ser colocadas essas pessoas de modo
-            que em pelo menos dois degraus consecutivos fiquem pessoas do mesmo sexo?
-    \end{enumerate}
-\end{frame}
-
-
-%------------------------------------------------
 \section{Fatorial}
 
 \begin{frame}{Fatorial}
@@ -160,6 +146,7 @@ A análise combinatória é um ramo da matemática que procura elaborar métodos
     \end{center}
 
     \begin{itemize}
+        \setlength\itemsep{1em}
         \item $\dfrac{10!}{8!}$
         \item $\dfrac{50! - 49!}{49!}$
         \item $\dfrac{(n+1)!}{(n-1)!} = 210$
@@ -216,15 +203,15 @@ A análise combinatória é um ramo da matemática que procura elaborar métodos
 
 \end{frame}
 
-\begin{frame}{Permutação Simples}
+\begin{frame}[t]{Permutação Simples}
     De quantas formas podem 5 pessoas ficar em fila indiana?
 \end{frame}
 
-\begin{frame}{Permutação Simples}
+\begin{frame}[t]{Permutação Simples}
     Quantas palavras distintas podemos formar com a palavra PERNAMBUCO? Quantas começam com a síIaba PER?
 \end{frame}
 
-\begin{frame}{Permutação com Elementos Repetidos}
+\begin{frame}[t]{Permutação com Elementos Repetidos}
     De quantas maneiras pode-se organizar 6 livros em uma prateleira sendo que 3 deles são iguais?
       \begin{figure}[htb!]
         \centering
@@ -257,6 +244,99 @@ A análise combinatória é um ramo da matemática que procura elaborar métodos
     P_{c(n)} = \dfrac{n!}{n}
     \end{equation*}
 
+\end{frame}
+
+\begin{frame}{Arranjo}
+    Como já vimos anteriormente, arranjos são agrupamentos em que se \textbf{considera a ordem dos elementos}.
+    \vspace{.5cm}
+
+    Muito comum em questões de criação de senhas, números, telefones, placas de carro, competições, disputas, situações em que houver hierarquia.
+
+    \vspace{.5cm}
+
+    Fórmula:
+
+    \begin{equation*}
+        A_p^n = A_{n,p} = \dfrac{n!}{(n-p)!}
+    \end{equation*}
+
+    \vspace{.5cm}
+
+    Dica: Questões de Arranjos podem ser resolvidos utilizando PFC.
+
+\end{frame}
+
+\begin{frame}[t]{Arranjo}
+    Veja algunas exemplos:
+
+    \vspace{.5cm}
+
+    \begin{itemize}
+        \setlength\itemsep{1em}
+        \item $A_{5,2} = $
+        \item $A_{10,4} = $
+        \item $A_{8,1} = $
+        \item $A_{7,5} = $
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}[t]{Arranjo}
+    Um cofre possui um disco marcado com os dígitos 0, 1, 2, ..., 9. O segredo do cofre é marcado
+por uma sequência de 3 dígitos distintos. Se uma pessoa tentar abrir o cofre, quantas tentativas
+deverá fazer (no máximo) para conseguir abri-lo?
+\end{frame}
+
+\begin{frame}[t]{Arranjo}
+    Em uma escola está sendo realizado um torneio de futebol de salão, no qual dez times estão
+participando. Quantos jogos podem ser realizados entre os times participantes em turno e
+returno?
+\end{frame}
+
+\begin{frame}{Combinação}
+    Como já vimos anteriormente, combinações são agrupamentos em que \textbf{não considera-se a ordem dos elementos}.
+
+    \vspace{.5cm}
+
+    Muito comum em questões de criação de grupos, comissões e agrupamentos em que não há distinção pela ordem dos elementos escolhidos.
+
+    \vspace{.5cm}
+
+    Fórmula:
+
+    \begin{equation*}
+        C_p^n = C_{n,p} = \dfrac{n!}{(n-p)!p!}
+    \end{equation*}
+
+    \vspace{.5cm}
+
+    Dica: Questões de Combinações não podem ser resolvidos utilizando PFC.
+\end{frame}
+
+\begin{frame}[t]{Combinação}
+    Veja alguns exemplos:
+
+    \vspace{.5cm}
+
+    \begin{itemize}
+        \setlength\itemsep{1em}
+        \item $C_{5,2} = $
+        \item $C_{10,4} = $
+        \item $C_{8,1} = $
+        \item $C_{7,5} = $
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}[t]{Combinação}
+    Uma prova consta de 5 questões das quais o aluno deve resolver 2. De quantas formas
+    ele poderá escolher as 2 questões?
+\end{frame}
+
+\begin{frame}[t]{Combinação}
+    Os 32 times que jogarão a Copa do Mundo 2014 no Brasil estão agrupados em oito grupos de
+quatro seleções cada. As quatro seleções de cada grupo se enfrentarão uma única vez entre si,
+formando a primeira etapa da copa. Calcule a quantidade de jogos que cada grupo terá.
 \end{frame}
 
 \end{document}
