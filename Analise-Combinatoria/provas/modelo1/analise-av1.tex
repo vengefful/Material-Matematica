@@ -1,0 +1,135 @@
+%%Template made by Uday Khankhoje for examinations using the exam template
+%%Refer to the documentation http://www-math.mit.edu/~psh/exam/examdoc.pdf
+%%for lot more bells and whistles to the standard template shown below
+\documentclass[a4paper,11pt,addpoints]{exam}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm]{geometry}
+%\usepackage{mathrsfs}
+\usepackage{graphicx,color}
+\usepackage[x11names]{xcolor}
+\usepackage{venndiagram}
+\usepackage{epic,eepic}
+%\usepackage{mathpazo}
+\usepackage{url}
+\usepackage{tasks} % cria lista curta
+\usepackage{multicol}
+\usepackage{amsmath, amsthm, amssymb}
+\pointsinmargin
+\boxedpoints
+\renewcommand*\half{.5}
+\usepackage{setspace}
+\DeclareMathOperator{\vecc}{vec}
+%\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+
+\global\vbadness=1616
+
+\begin{document}
+\noindent
+%%PART 1 of header
+\begin{center}
+	\vspace*{-3em}
+	\def\arraystretch{2.0}
+	\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
+		\hline
+		\textbf{Avaliação de Matemática - Terceiro Bimestre}                                                           & Pontos Obtidos $\downarrow$ \\
+		\hline
+		Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &                             \\
+		\hline
+		\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hr}                                               \\
+		\hline
+	\end{tabular}
+\end{center}
+%%PART 2 of header, if you have too many questions, this may be a problem
+%%if so, use \multirowgradetable{n}[questions], where n is the number of rows you want
+%%or, switch to \gradetable[h][pages] instead,
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+%%PART 3 of header
+\textbf{Instruções
+	\begin{enumerate}
+		\item Explique todas as questões claramente.
+		\item Necessário todos os cálculos.
+	\end{enumerate}
+}
+%%toggle comment on next line to show/hide the answers
+% \printanswers
+%%Now the actual paper!
+\begin{questions}
+
+	\question[1]
+
+    Dezesseis times de basquete se enfrentam em um torneio no qual cada time joga
+    contra todos os outros, em turno e returno. Quantas partidas são disputadas
+    no torneio?
+
+    \question[1]
+
+    Uma prova de atletismo é disputada por 9 atletas, dos quais apenas 4 são
+    brasileiros. Os resultados possíveis para a prova, de modo que \textbf{pelo menos} um
+    brasileiro fique numa das três primeiras colocações, são em número de:
+
+    \begin{tasks}(5)
+        \task 426
+        \task 444
+        \task 468
+        \task 480
+        \task 504
+    \end{tasks}
+
+    \question[1]
+
+    Assinale a alternativa na qual consta a quantidade de números inteiros
+    formados por três algarismos distintos, escolhidos dentre 1, 3, 5, 7 e 9,
+    e que são maiores que 200 e menores que 800 são:
+
+    \begin{tasks}(5)
+        \task 30
+        \task 36
+        \task 42
+        \task 48
+        \task 52
+    \end{tasks}
+
+    \question[1]
+
+    O número de permutações distintas com as 9 letras da palavra PARALELA,
+    começando todas com a letra \textbf{P}, será de:
+
+    \begin{tasks}(5)
+        \task 120
+        \task 720
+        \task 420
+        \task 24
+        \task 360
+    \end{tasks}
+
+    \question[1]
+
+    Dois prêmios iguais serão sorteados entre vinte pessoas, das quais doze são
+    mulheres e oito são homens. Admitindo que uma pessoa não possa ganhar os
+    dois prêmios:
+
+    \begin{tasks}
+        \task De quantas maneiras diferentes pode-se distribuir os prêmios entre
+        as pessoas?
+        \task De quantas maneiras diferentes pode-se distribuir os prêmios
+        se um deve ser concedido a uma mulher e o outro a um homem?
+    \end{tasks}
+
+    \question[1]
+
+    De quantas maneiras dez clientes de um banco podem se posicionar na fila
+    única dos caixas de modo que as 4 mulheres do grupo fiquem juntas?
+
+    \begin{tasks}(5)
+        \task $4! \cdot 7!$
+        \task $5! \cdot 6!$
+        \task $6! \cdot 6!$
+        \task $10! \cdot 6!$
+        \task $4! + 10!$
+
+    \end{tasks}
+
+
+\end{questions}
+\end{document}
