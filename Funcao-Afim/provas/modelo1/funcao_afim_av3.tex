@@ -36,7 +36,7 @@
 	\def\arraystretch{2.0}
 	\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
 		\hline
-		\textbf{Recuperação de Matemática - Terceiro Bimestre}                                                           & Pontos Obtidos $\downarrow$ \\
+		\textbf{Recuperação de Matemática - Terceiro Bimestre}                                                        & Pontos Obtidos $\downarrow$ \\
 		\hline
 		Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &                             \\
 		\hline
@@ -54,7 +54,7 @@
 \textbf{Instruções
 	\begin{enumerate}
 		\item Necessário todos os cálculos.
-        \item Questões de múltipla escolha sem cálculos serão desconsideradas.
+		\item Questões de múltipla escolha sem cálculos serão desconsideradas.
 	\end{enumerate}
 }
 %%toggle comment on next line to show/hide the answers
@@ -62,89 +62,97 @@
 %%Now the actual paper!
 \begin{questions}
 
-    \question[1]
+	\question[1]
 
-    Uma cidade é servida por duas empresas de telefonia. A empresa \textit{Telefone para todos}
-    cobra, por mês, uma assinatura de R\$ $35.00$ mais R\$ $0.50$ por minuto utilizado. A empresa
-    \textit{Fale a vontade} cobra, por mês, uma assinatura de R\$ $26.00$ mais R\$ $0.65$ por minuto
-    utilizado. A partir de quantos minutos de utilização o plano da empresa \textit{Telefone para todos}
-    passa a ser mais vantajoso para os clientes do que o plano da empresa \textit{Fale a vontade}?
+	Uma confecção tem um custo fixo com contas de água, luz e salário de
+	funcionários de R\$ 5000.00 por mês. Cada peça de roupa produzida tem
+	um custo de R\$ 4.00 e é vendida por R\$ 12.00. O número de peças que
+	devem ser produzidas e vendidas para se obter um lucro igual ao custo
+	fixo é:
 
-    \question[1]
+	\begin{tasks}(5)
+		\task 125
+		\task 250
+		\task 650
+		\task 1250
+		\task 1275
 
-    Dada a função afim $f(x) = -3x -5$, determine:
+	\end{tasks}
 
-    \begin{tasks}(2)
-        \task $f(0)$
-        \task $f(-4)$
-        \task $f(5)$
-        \task $f(2)$
-    \end{tasks}
+	\question[1]
 
-    \question[1]
+	Dada a função afim $f(x) = -2x +1$, determine:
 
-    Determine os zeros ou raízes das funções:
+	\begin{tasks}(2)
+		\task $f(0)$
+		\task $f(-4)$
+		\task $f(5)$
+		\task $f(2)$
+	\end{tasks}
 
-    \begin{tasks}(2)
-        \task $f(x) = -2x - 20$
-        \task $f(x) = 3x - 27$
-        \task $f(x) = 2x + 4$
-        \task $f(x) = 2x$
-    \end{tasks}
+	\question[1]
 
-    \question[1]
+	Determine os zeros ou raízes das funções:
 
-    Um botânico mede o crescimento de uma planta, em centímetros, todos os dias.
-    Ligando os pontos, colocados por ele, num gráfico, resulta o gráfico abaixo.
+	\begin{tasks}(2)
+		\task $f(x) = 10x + 50$
+		\task $f(x) = 3x + 81$
+		\task $f(x) = -2x - 60$
+		\task $f(x) = -4x$
+	\end{tasks}
 
-    \begin{center}
-        \begin{tikzpicture}
-            \begin{axis}[
-                xmin=0,
-                xmax=15,
-                ymin=0,
-                ymax=3,
-                axis lines=center,
-                xlabel=t (dias),
-                ylabel=h (cm),
-                xtick={0,5,10},
-                ytick={1,2}
-                ]
-                \addplot[color=blue, domain=0:12]{x/5};
-                \addplot[only marks] table {
-                        5 1
-                        10 2
-                    };
-                \addplot[dashed, color=black]{1};
-                \addplot[dashed, domain=0:10, color=black]{2};
-                \addplot[dashed] coordinates{(10,0)(10,2)};
-                \addplot[dashed] coordinates{(5,0)(5,1)};
-            \end{axis}
-        \end{tikzpicture}
-    \end{center}
+	\question[1]
 
-    Se mantida sempre essa relação entre tempo e altura, a planta terá no
-    quadragésimo dia, uma altura em centímetros igual a:
+	Um botânico mede o crescimento de uma planta, em centímetros, todos os dias.
+	Ligando os pontos, colocados por ele, num gráfico, resulta o gráfico abaixo.
 
-    \begin{tasks}(5)
-        \task 6
-        \task 8
-        \task 12
-        \task 15
-        \task 30
-    \end{tasks}
+	\begin{center}
+		\begin{tikzpicture}
+			\begin{axis}[
+					xmin=0,
+					xmax=20,
+					ymin=0,
+					ymax=5,
+					axis lines=center,
+					xlabel=t (dias),
+					ylabel=h (cm),
+					xtick={0,7,14},
+					ytick={2,4}
+				]
+				\addplot[color=blue, domain=0:14]{2*x/7};
+				\addplot[only marks] table {
+						7 2
+						14 4
+					};
+				\addplot[dashed, domain=0:7, color=black]{2};
+				\addplot[dashed, domain=0:14, color=black]{4};
+				\addplot[dashed] coordinates{(14,0)(14,4)};
+				\addplot[dashed] coordinates{(7,0)(7,2)};
+			\end{axis}
+		\end{tikzpicture}
+	\end{center}
 
-    \question[2]
+	Se mantida sempre essa relação entre tempo e altura, a planta terá no
+	quadragésimo dia, uma altura em centímetros igual a:
 
-    Faça o esboço do gráfico das funções abaixo:
+	\begin{tasks}(5)
+		\task 6
+		\task 8
+		\task 12
+		\task 15
+		\task 30
+	\end{tasks}
 
-    \begin{tasks}
-        \task $f(x) = x - 3$
-        \task $f(x) = 2x + 5$
-        \task $f(x) = -x + 2$
-        \task $f(x) = -2x + 2$
-        \task $f(x) = 3x$
-    \end{tasks}
+	\question[2]
+
+	Faça o esboço do gráfico das funções abaixo:
+
+	\begin{tasks}
+		\task $f(x) = 2x - 3$
+		\task $f(x) = -x + 2$
+		\task $f(x) = 3x + 2$
+		\task $f(x) = -2x - 1$
+	\end{tasks}
 
 \end{questions}
 \end{document}
