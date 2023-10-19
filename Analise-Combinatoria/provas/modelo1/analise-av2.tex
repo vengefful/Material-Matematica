@@ -1,0 +1,108 @@
+%%Template made by Uday Khankhoje for examinations using the exam template
+%%Refer to the documentation http://www-math.mit.edu/~psh/exam/examdoc.pdf
+%%for lot more bells and whistles to the standard template shown below
+\documentclass[a4paper,11pt,addpoints]{exam}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm]{geometry}
+%\usepackage{mathrsfs}
+\usepackage{graphicx,color}
+\usepackage[x11names]{xcolor}
+\usepackage{venndiagram}
+\usepackage{epic,eepic}
+%\usepackage{mathpazo}
+\usepackage{url}
+\usepackage{tasks} % cria lista curta
+\usepackage{multicol}
+\usepackage{amsmath, amsthm, amssymb}
+\pointsinmargin
+\boxedpoints
+\renewcommand*\half{.5}
+\usepackage{setspace}
+\DeclareMathOperator{\vecc}{vec}
+%\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+
+\global\vbadness=1616
+
+\begin{document}
+\noindent
+%%PART 1 of header
+\begin{center}
+	\vspace*{-3em}
+	\def\arraystretch{2.0}
+	\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
+		\hline
+		\textbf{Avaliação de Matemática - Terceiro Bimestre}                                                          & Pontos Obtidos $\downarrow$ \\
+		\hline
+		Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &                             \\
+		\hline
+		\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hr}                                               \\
+		\hline
+	\end{tabular}
+\end{center}
+%%PART 2 of header, if you have too many questions, this may be a problem
+%%if so, use \multirowgradetable{n}[questions], where n is the number of rows you want
+%%or, switch to \gradetable[h][pages] instead,
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+%%PART 3 of header
+\textbf{Instruções
+	\begin{enumerate}
+		\item Explique todas as questões claramente.
+		\item Necessário todos os cálculos.
+	\end{enumerate}
+}
+%%toggle comment on next line to show/hide the answers
+% \printanswers
+%%Now the actual paper!
+\begin{questions}
+
+	\question[1]
+
+	O número de anagramas que se pode formar com as letras da palavra
+	\textbf{ARRANJO} é igual a:
+
+	\begin{tasks}(5)
+		\task 21
+		\task 42
+		\task 5040
+		\task 2520
+		\task 1260
+	\end{tasks}
+
+	\question[1]
+
+	Se uma reunião com 10 pessoas, todas se cumprimentam, quantos cumprimentos
+	houveram?
+
+	\question[1]
+
+	Um sargento deve selecionar 5 soldados para uma missão, dentre os 12
+	que estão sob seu comando no momento. De quantas formas ele pode
+	selecionar os soldados?
+
+	\question[1]
+
+	Com os algarismos pares sem os repetir, quantos números naturais
+	compreendidos entre 2000 e 7000 podem ser formados?
+
+	\question[1]
+
+	De quantos modos 3 pessoas podem sentar-se em 5 cadeiras em fila?
+
+	\question[1]
+
+	Num grupo de 10 pessoas, temos somente 2 homens. O número de comissões de 5
+	pessoas que podemos formar com 1 homem e 4 mulheres é:
+
+	\begin{tasks}(5)
+		\task 70
+		\task 84
+		\task 140
+		\task 210
+		\task 252
+
+	\end{tasks}
+
+
+\end{questions}
+\end{document}
