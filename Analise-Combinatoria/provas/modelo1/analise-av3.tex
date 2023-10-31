@@ -1,0 +1,105 @@
+%%Template made by Uday Khankhoje for examinations using the exam template
+%%Refer to the documentation http://www-math.mit.edu/~psh/exam/examdoc.pdf
+%%for lot more bells and whistles to the standard template shown below
+\documentclass[a4paper,11pt,addpoints]{exam}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm]{geometry}
+%\usepackage{mathrsfs}
+\usepackage{graphicx,color}
+\usepackage[x11names]{xcolor}
+\usepackage{venndiagram}
+\usepackage{epic,eepic}
+%\usepackage{mathpazo}
+\usepackage{url}
+\usepackage{tasks} % cria lista curta
+\usepackage{multicol}
+\usepackage{amsmath, amsthm, amssymb}
+\pointsinmargin
+\boxedpoints
+\renewcommand*\half{.5}
+\usepackage{setspace}
+\DeclareMathOperator{\vecc}{vec}
+%\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+
+\global\vbadness=1616
+
+\begin{document}
+\noindent
+%%PART 1 of header
+\begin{center}
+	\vspace*{-3em}
+	\def\arraystretch{2.0}
+	\begin{tabular}{|p{0.7\linewidth}|p{0.2\linewidth}|}
+		\hline
+		\textbf{Avaliação de Matemática - Terceiro Bimestre}                                                          & Pontos Obtidos $\downarrow$ \\
+		\hline
+		Data:\hspace{3cm}  Total de questões \textbf{\numquestions} \hspace{1cm} Total de pontos: \textbf{\numpoints} &                             \\
+		\hline
+		\multicolumn{2}{|l|}{Tuma: \hspace{0.3\linewidth} Nome: \hspace{0.3\linewidth} Duração: 1 hr}                                               \\
+		\hline
+	\end{tabular}
+\end{center}
+%%PART 2 of header, if you have too many questions, this may be a problem
+%%if so, use \multirowgradetable{n}[questions], where n is the number of rows you want
+%%or, switch to \gradetable[h][pages] instead,
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+%%PART 3 of header
+\textbf{Instruções
+	\begin{enumerate}
+		\item Explique todas as questões claramente.
+		\item Necessário todos os cálculos.
+	\end{enumerate}
+}
+%%toggle comment on next line to show/hide the answers
+% \printanswers
+%%Now the actual paper!
+\begin{questions}
+
+	\question[1]
+
+	Quantos anagramas possui a palavra \textbf{TESTES}?
+
+	\question[1]
+
+	Uma classe de 20 alunos precisa escolher um líder e um ajudante para
+	organizar a turma para a gincana da escola. De quantos modos a classe
+	pode fazer esta escolha?
+
+	\question[1]
+
+	Um partido tem 5 nomes distintos para compor a chapa (prefeito e vice-prefeito)
+	que vai concorrer à prefeitura municipal. De quanntos modos o partido pode
+	montar a chapa?
+
+	\question[1]
+
+	Num ônibus, há 6 lugares vagos. Se 3 pessoas entram no ônibus, de quantas
+	maneiras elas podem sentar-se no ônibus?
+
+	\question[1]
+
+	Certo dia, o pai de Carlos emprestou-lhe o cartão de crédito e revelou a
+	senha do mesmo, porém Carlos esqueceu a senha revelada. Apenas lembrou-se
+	de que os 4 dígitos da senha eram distintos e de que o segundo dígito era
+	igual a 4 vezes o primeiro. Tentando chutar a senha do cartão do seu pai,
+	até quantas vezes Carlos pode errar esse chute, sabendo que ele nunca
+	repete um chute errado?
+
+	\question[1]
+
+	Quantos anagramas da palavra \textbf{EDITORA}:
+
+	\begin{tasks}
+		\task começam por A?
+		\task começam por A e terminam por E?
+	\end{tasks}
+
+
+
+
+
+
+
+\end{questions}
+\end{document}
